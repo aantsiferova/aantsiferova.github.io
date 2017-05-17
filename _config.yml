@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Anastasia Antsiferova
-tagline:          tagline
-description:      description
+tagline:          'tagline'
+description:      'description'
 url:              http://aantsiferova.github.io
 baseurl:          /
 
