@@ -7,10 +7,12 @@ permalink:        pretty
 
 # Setup
 title:            Anastasia Antsiferova
-tagline:          Student at Lomonosov MSU
-url:              vk.com/keep_talking
+tagline:          tagline
+description:      description
+url:              http://vk.com/keep_talking
+baseurl:          /
 
 paginate:         5
 
 github:
-  repo:           https://github.com/aantsiferova
+  repo:           https://github.com/poole/hyde
