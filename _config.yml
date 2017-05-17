@@ -9,10 +9,10 @@ permalink:        pretty
 title:            Anastasia Antsiferova
 tagline:          tagline
 description:      description
-url:              http://vk.com/keep_talking
+url:              http://aantsiferova.github.io
 baseurl:          /
 
 paginate:         5
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/aantsiferova
