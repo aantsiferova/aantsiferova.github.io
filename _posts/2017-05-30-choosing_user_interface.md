@@ -19,15 +19,35 @@ With help of my mentor I have prepared a list of pros and cons of each type of i
 ### Command line interfaces
 * Argparser
 
+```python
+import argparse
+
+parser = argparse.ArgumentParser(
+        description='This is an exaple argparser')
+    parser.add_argument('dir',
+                        metavar='directory',
+                        type=str,
+                        nargs=1,
+                        help='Path to a directory with file(s)')
+    parser.add_argument('filename',
+                        metavar='filename(s)',
+                        type=str,
+                        nargs=+,
+                        help='Filenames (space-separated)')
+    parser.add_argument('-out', '--outfile',
+                        type=str,
+                        help='Filename to save the output (optional)')
+```
 I use it now, during the developement, for which it is quite convenient. But on the last stage of my internship I could provide useful ans user-friendly tools and interface, so I took a look on other types.
 
 * Curses
+![Exaple of curses interface](http://www.muylinux.com/wp-content/uploads/2010/01/alsamixer.png)
 	- (+) curses will be more convenient to run on a remote servers without X11
 	- (+) it will be easier to implement
 	- (-) perhaps it will be convenient only for advanced users
 	- (-) you will need to use some graphical interface if you want to visualise the data, but probably this is not so critical
 
-There are also alternatives for python curses, for example I found http://urwid.org
+There are also alternatives for python curses, for example I found [Urwid](http://urwid.org)
 
 ### Graphic interfaces
 * PyQT
@@ -38,7 +58,7 @@ There are also alternatives for python curses, for example I found http://urwid.
 * Web interface
 	- (+) more cross-platform as you can use it even with the tablet
 	- (+) no need to install extra packages
-	- (+) I could add interactive charts like the one I’ve implemented in Highcharts(I could use another, open-source, library and create a graph with events’ relationships, for example https://d3js.org)
+	- (+) I could add interactive charts (I've used [Highcharts](https://www.highcharts.com), but there are many open-source libraries, for example [D3: Data-Driven Documents](https://d3js.org)
 	- (-) it can be more difficult to implement, but there are many frameworks, for example I've tried the examples from Flask http://flask.pocoo.org
 	- (-) a running web application must be accessed some way, typically over ssh forwarding, which is some hassle
 
