@@ -3,9 +3,7 @@ layout: page
 title: About me
 ---
 
-``Hey there! This page is under construction. Please come back later!``
-
-![My photo, 29.04.2017]({{ site.url }}/assets/myphoto.jpg){:width="40%" style="float: right;margin-left: 50px; margin-bottom: 7px;"}
+![My photo, 29.04.2017]({{ site.url }}/assets/myphoto.jpg){:width="40%" style="float: right;margin-left: 50px; margin-bottom: 15px;"}
 ### General information
 **Name:** Anastasia Antsiferova  
 **Date of birth:** 11.06.1994  
@@ -15,6 +13,13 @@ title: About me
 * Bachelor in Applied Mathematics and Computer Science [Lomonosov Moscow State University][MSU], [The Faculty of Computational Mathematics&Cybernetics][CS MSU], [The department of Computing Systems and Automation][ASVK], [Graphics&Media Laboratory][GML], Video group
 * Master in Applied Mathematics and Computer Science (in progress)
 
+Me on social networks:
+* [VK][VK]
+* [VK group][VK_group]
+* [Facebook][FACEBOOK]
+* [Twitter][TWITTER]
+* [Google Plus][GOOGLE]
+
    [MSU]: https://www.msu.ru/en/
    [CS MSU]: https://cs.msu.ru/en
    [ASVK]: https://cs.msu.ru/en/departments/asvk
@@ -23,3 +28,5 @@ title: About me
    [FACEBOOK]: https://www.facebook.com/anastasia.antsiferova
    [VK]: https://vk.com/keep_talking
    [VK_group]: https://vk.com/keep__talking
+   [TWITTER]: https://twitter.com/antsiferova_av
+   [GOOGLE]: https://plus.google.com/u/0/+АнастасияАнциферова
