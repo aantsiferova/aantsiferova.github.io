@@ -16,7 +16,7 @@ paginate:         5
 
 github:
   repo:           https://github.com/aantsiferova
-
+atom:             atom.xml
 twitter_username:     antsiferova_av
 google_plus_username: АнастасияАнциферова
 facebook_username:    anastasia.antsiferova
