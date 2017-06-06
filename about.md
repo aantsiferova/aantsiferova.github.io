@@ -13,12 +13,17 @@ title: About me
 * Bachelor in Applied Mathematics and Computer Science [Lomonosov Moscow State University][MSU], [The Faculty of Computational Mathematics&Cybernetics][CS MSU], [The department of Computing Systems and Automation][ASVK], [Graphics&Media Laboratory][GML], Video group
 * Master in Applied Mathematics and Computer Science (in progress)
 
-Me on social networks:
-* [VK][VK]
-* [VK group][VK_group]
-* [Facebook][FACEBOOK]
-* [Twitter][TWITTER]
-* [Google Plus][GOOGLE]
+My group on [VK][VK_group]
+Me on social networks
+<a href="https://vk.com/keep_talking" class="fa fa-vk"></a>
+<a href="https://www.facebook.com/anastasia.antsiferova" class="fa fa-facebook"></a>
+<a href="https://twitter.com/antsiferova_av" class="fa fa-twitter"></a>
+<a href="https://plus.google.com/u/0/+АнастасияАнциферова" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="https://www.youtube.com/channel/UCF2YafR15atIYnTigq45rng" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/anastasia_antsiferova/" class="fa fa-instagram"></a>
+<a href="gotonastya" class="fa fa-skype"></a>
+<a href="#" class="fa fa-rss"></a>
 
    [MSU]: https://www.msu.ru/en/
    [CS MSU]: https://cs.msu.ru/en
