@@ -248,3 +248,13 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Picture */
+.theme-base-0p .sidebar {
+  background-image: url(http://img.audiomania.ru/pics/goods/big/pink_floyd__meddle2_rear.jpg); /* Путь к фоновому изображению */
+  background-color: #6a9fb5; /* Цвет фона */
+}
+.theme-base-0p .content a,
+.theme-base-0p .related-posts li a:hover {
+  color: #6a9fb5;
+}

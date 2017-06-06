@@ -41,7 +41,7 @@ parser = argparse.ArgumentParser(
 I use it now, during the developement, for which it is quite convenient. But on the last stage of my internship I could provide useful ans user-friendly tools and interface, so I took a look on other types.
 
 * Curses
-![Exaple of curses interface](http://www.muylinux.com/wp-content/uploads/2010/01/alsamixer.png){:width="60%" style="margin-bottom: 7px;"}
+![Exaple of curses interface](http://www.muylinux.com/wp-content/uploads/2010/01/alsamixer.png){:width="80%" style="margin-bottom: 7px;"}
 	- (+) curses will be more convenient to run on a remote servers without X11
 	- (+) it will be easier to implement
 	- (-) perhaps it will be convenient only for advanced users
