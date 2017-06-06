@@ -15,23 +15,33 @@ In scientific work research and searching a new solution for the problem also pr
 	- Web interface
 
 With help of my mentor I have prepared a list of pros and cons of each type of interface regarding our task.
+
 ### Command line interfaces
 * Argparser
+
+I use it now, during the developement, for which it is quite convenient. But on the last stage of my internship I could provide useful ans user-friendly tools and interface, so I took a look on other types.
+
 * Curses
-	+ curses will be more convenient to run on a remote servers without X11
-	+ it will be easier to implement
-	- perhaps it will be convenient only for advanced users
-	- you will need to use some graphical interface if you want to visualise the data, but probably this is not so critical
-There are also alternatives for python ncurses, for example I found http://urwid.org
+	- (+) curses will be more convenient to run on a remote servers without X11
+	- (+) it will be easier to implement
+	- (-) perhaps it will be convenient only for advanced users
+	- (-) you will need to use some graphical interface if you want to visualise the data, but probably this is not so critical
+
+There are also alternatives for python curses, for example I found http://urwid.org
+
 ### Graphic interfaces
 * PyQT
-	+ cross-platform
-	+ easy to use
-	- need to install pyqt package
-	- may be slow over remote connections
+	- (+) cross-platform
+	- (+) easy to use
+	- (-) need to install pyqt package
+	- (-) may be slow over remote connections
 * Web interface
-	+ more cross-platform as you can use it even with the tablet
-	+ no need to install extra packages
-	+ I could add interactive charts like the one I’ve implemented in Highcharts(I could use another, open-source, library and create a graph with events’ relationships, for example https://d3js.org)
-	- it can be more difficult to implement, but there are many frameworks, for example I've tried the examples from Flask http://flask.pocoo.org
-	- a running web application must be accessed some way, typically over ssh forwarding, which is some hassle
+	- (+) more cross-platform as you can use it even with the tablet
+	- (+) no need to install extra packages
+	- (+) I could add interactive charts like the one I’ve implemented in Highcharts(I could use another, open-source, library and create a graph with events’ relationships, for example https://d3js.org)
+	- (-) it can be more difficult to implement, but there are many frameworks, for example I've tried the examples from Flask http://flask.pocoo.org
+	- (-) a running web application must be accessed some way, typically over ssh forwarding, which is some hassle
+
+Web interface seems to be more attractive to me, however, its implementation can take a long time. Since I would like to devote more time to developing an algorithm, we decided to choose the curses/urwid interface. At the same time I'll leave the possibility to change the interface if necessary, so if there is enough time, I would try to create a web interface. 
+
+I hope my resume will help to get an initial idea of what interface is best for you, but do not forget that the choice depends on the task that you decide and the time available to you.
