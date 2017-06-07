@@ -261,11 +261,11 @@ a.sidebar-nav-item:focus {
 
 .fa {
   padding: 10px;
-  font-size: 20px;
+  font-size: 10px;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 0px;
+  margin: 0.5px 0.5px;
 }
 
 .fa:hover {
@@ -273,6 +273,7 @@ a.sidebar-nav-item:focus {
 }
 a.fa:link {
   color: white;
+  text-decoration: none;
 }
 a.fa:hover {
   color: white;
