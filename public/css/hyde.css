@@ -261,17 +261,17 @@ a.sidebar-nav-item:focus {
 
 .fa {
   padding: 10px;
-  font-size: 14px;
-  font-color: white;
-  width: 30px;
+  font-size: 20px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 4px 2px;
 }
 
 .fa:hover {
     opacity: 0.7;
-ß}
+    color: white;
+}
 .fa-vk {
   background: #3B5998;
   color: white;
