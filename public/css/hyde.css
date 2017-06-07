@@ -261,24 +261,22 @@ a.sidebar-nav-item:focus {
 
 .fa {
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 1px 1px;
+  margin: 0px 0px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 a.fa:link {
   color: white;
 }
 a.fa:hover {
   color: white;
-}
-a.fa:visited {
-  color: white;
+  text-decoration: none;
 }
 .fa-vk {
   background: #3B5998;
