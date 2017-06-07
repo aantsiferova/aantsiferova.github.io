@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <div class="post">
@@ -8,7 +9,9 @@ layout: default
   {{ content }}
 </div>
 
-{% include disqus.html %}
+{% if page.comments %} 
+  {% include disqus.html %}
+{% endif %}
 
 <div class="related">
   <h2>Related Posts</h2>
