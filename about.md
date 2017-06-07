@@ -23,7 +23,6 @@ Me on social networks
 <a href="https://www.youtube.com/channel/UCF2YafR15atIYnTigq45rng" class="fa fa-youtube"></a>
 <a href="https://www.instagram.com/anastasia_antsiferova/" class="fa fa-instagram"></a>
 <a href="gotonastya" class="fa fa-skype"></a>
-<a href="#" class="fa fa-rss"></a>
 
    [MSU]: https://www.msu.ru/en/
    [CS MSU]: https://cs.msu.ru/en
