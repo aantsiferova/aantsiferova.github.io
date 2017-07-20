@@ -13,7 +13,7 @@ title: About me
 * Bachelor in Applied Mathematics and Computer Science [Lomonosov Moscow State University][MSU], [The Faculty of Computational Mathematics&Cybernetics][CS MSU], [The department of Computing Systems and Automation][ASVK], [Graphics&Media Laboratory][GML], Video group
 * Master in Applied Mathematics and Computer Science (in progress)
 
-Add to links <a class="fa fa-rss" href="{{ site.baseurl }}atom.xml"></a>
+[comment]: <> (Add to links <a class="fa fa-rss" href="{{ site.baseurl }}atom.xml"></a>)
 My group on [VK][VK_group]
 Me on social networks
 <a href="https://vk.com/keep_talking" class="fa fa-vk"></a>
