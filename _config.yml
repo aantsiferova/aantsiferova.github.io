@@ -9,13 +9,13 @@ permalink:        pretty
 title:            Anastasia Antsiferova's Blog
 tagline:          'keep_talking'
 description:      'Student at Lomonosov MSU'
-url:              http://aantsiferova.github.io
+url:              https://aantsiferova.github.io
 baseurl:          /
 
 paginate:         5
 
 github:
-  repo:           http://github.com/aantsiferova
+  repo:           https://github.com/aantsiferova
 
 author:
   name:           Anastasia Antsiferova           
