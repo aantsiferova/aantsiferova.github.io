@@ -2,13 +2,11 @@
 layout: post
 title: Parallelizing the parsing
 ---
-
 When processing large log files, I faced the problem of the insufficient speed of my method. There are many places to be improved, but I decided to start with the parallelizing it and then analyze the algorithm in detail.
 
 As the parser reads log file line-by-line, the first idea was to parallelize it by lines. However, as I have already described in the previous post, there are multi-line-lines. If we split the file in groups of lines, we may divide such lines and they won't be processed correctly. So, for start I decided to parallelize the parsing by the files.
 
 ## Multiprocessing tool
-
 ```python
 from multiprocessing import Manager, Pool
 ```
@@ -16,7 +14,6 @@ The multiprocessing module allows to spawn processes in the same manner than you
 
 
 #### Pool
-
 ```python
 with Pool(processes=5) as pool:
     worker = pool.imap(func, run_args)
@@ -27,7 +24,6 @@ Here I decided to parallelize the executing in 5 threads, and the result in retu
 
 
 #### Queue
-
 There are many ways to organize communication between processes, and I choose the existing in the `multiprocessing` library class `Manager`. It controls a server process which holds Python objects and allows other processes to manipulate them using proxies. A manager returned by `Manager()` supports many types, and one of them  is `Queue`. Processes write to the queue and then I get all the written messages and can put them to the needed file.
 
 ```python
@@ -41,7 +37,6 @@ while not q.empty():
 ```
 
 ## Progressbars
-
 I decided to add a progress bar for the parsing process. I used a [Progressbar](https://pypi.python.org/pypi/progressbar2) library, which can be installed via `pip install progressbar2`. 
 
 ```python
@@ -64,7 +59,6 @@ with Pool(processes=5) as pool:
 ```
 
 #### Progress bar for sub-processes
-
 There can be situations when one of the log files is bigger then the others, and it is useful to know how many lines are already parsed in each file. The idea was to add a progressbar to each process, and also keep a main progress bar. Since one log message is not always located in the one line, I decided to measure the progress in symbols, counting them with `file.seek(0, os.SEEK_END)`. The part of the solution is presented below, and I used a curses interface to display the progress bars in console.
 
 ```python
