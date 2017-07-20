@@ -11,7 +11,6 @@ tagline:          'keep_talking'
 description:      'Student at Lomonosov MSU'
 url:              http://aantsiferova.github.io
 baseurl:          /
-root:             /
 
 paginate:         5
 
