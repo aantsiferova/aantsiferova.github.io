@@ -7,4 +7,4 @@ title: Study&Research
   Hey there! This page is under construction. Please come back later!
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cusfytedcsU" frameborder="0" allowfullscreen></iframe>
+[comment]: <> (<iframe width="560" height="315" src="https://www.youtube.com/embed/cusfytedcsU" frameborder="0" allowfullscreen></iframe>)
