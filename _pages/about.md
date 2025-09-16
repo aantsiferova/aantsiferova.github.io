@@ -28,9 +28,7 @@ latest_posts:
 
 Dr. Anastasia Antsiferova is a Senior Research Scientist and Group Leader specializing in trusted AI, video quality metrics, and adversarial robustness. She was recognized as a finalist of "Leaders of AI 2024" in Russia. She has developed and supervised a research group in robust video quality metrics, certification methods, and empirical defenses for neural networks.
 
-She led a team of 24 students conducting cutting-edge research in image/video quality measurement and adversarial robustness of neural networks. Her work includes developing an attack on the VMAF quality metric, which was later integrated into Google's libaom (AV1) encoder, prompting Netflix to launch a new, more robust metric, VMAF NEG. She also founded two startups, NeuroTechSoft and Effective Video Transcoding.
-
-Dr. Antsiferova has published over 20 peer-reviewed research papers in top conferences, including NeurIPS, ICML, ICLR, and AAAI.
+Her work includes developing an attack on the VMAF quality metric, which was later integrated into Google's libaom (AV1) encoder, prompting Netflix to launch a new, more robust metric, VMAF NEG. She also founded two startups, NeuroTechSoft and Effective Video Transcoding. Dr. Antsiferova has published over 20 peer-reviewed research papers in top conferences, including NeurIPS, ICML, ICLR, and AAAI.
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
