@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://aantsiferova.github.io/aantsiferova.github.io/sitemap.xml
