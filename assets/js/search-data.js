@@ -7,62 +7,62 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/aantsiferova.github.io/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "Publications in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/aantsiferova.github.io/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "Research projects in video quality assessment, adversarial robustness, and video compression.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/aantsiferova.github.io/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Open-source projects and research code.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/aantsiferova.github.io/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "Academic curriculum vitae.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/aantsiferova.github.io/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-people",
           title: "people",
           description: "Research group members",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/aantsiferova.github.io/people/";
+            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/aantsiferova.github.io/books/";
+                window.location.href = "/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/aantsiferova.github.io/blog/";
+                window.location.href = "/blog/";
               },
             },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/aantsiferova.github.io/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -70,7 +70,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/aantsiferova.github.io/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -78,22 +78,22 @@ ninja.data = [{
           title: 'Adversarially Robust Image/Video Quality Assessment',
           description: "Benchmarks and defense methods for image/video quality metrics robustness to adversarial attacks.",
           section: "Projects",handler: () => {
-              window.location.href = "/aantsiferova.github.io/projects/adversarial_robustness/";
+              window.location.href = "/projects/adversarial_robustness/";
             },},{id: "projects-recognition-aware-video-quality-metrics",
           title: 'Recognition-Aware Video Quality Metrics',
           description: "Development of a new metric predicting object-detection accuracy for compressed videos, in collaboration with Huawei.",
           section: "Projects",handler: () => {
-              window.location.href = "/aantsiferova.github.io/projects/recognition_aware_metrics/";
+              window.location.href = "/projects/recognition_aware_metrics/";
             },},{id: "projects-video-conferencing-quality-metrics",
           title: 'Video Conferencing Quality Metrics',
           description: "Methodology and dataset development for video-conferencing quality metrics, in collaboration with Huawei.",
           section: "Projects",handler: () => {
-              window.location.href = "/aantsiferova.github.io/projects/video_conferencing/";
+              window.location.href = "/projects/video_conferencing/";
             },},{id: "projects-video-quality-metrics-benchmark",
           title: 'Video Quality Metrics Benchmark',
           description: "The largest benchmark of video-compression-related quality metrics, with industry-wide adoption.",
           section: "Projects",handler: () => {
-              window.location.href = "/aantsiferova.github.io/projects/video_quality_benchmark/";
+              window.location.href = "/projects/video_quality_benchmark/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -134,7 +134,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/aantsiferova.github.io/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
