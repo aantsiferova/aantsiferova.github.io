@@ -2,27 +2,25 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: Research group members
 nav: true
-nav_order: 7
+nav_order: 5
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
     content: about_aant.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_aant.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Group Leader</p>
+      <p>MSU Institute for Artificial Intelligence</p>
+      <p>ISP RAS Research Center for Trusted AI</p>
+  # To add a student, copy and uncomment the block below:
+  # - align: left
+  #   image: student_photo.jpg
+  #   content: about_student.md
+  #   image_circular: false
+  #   more_info: >
+  #     <p>Student Name</p>
+  #     <p>Research topic</p>
 ---

@@ -1,63 +1,506 @@
 ---
 ---
 
-
-@inproceedings{antsiferovaApplyingObjectiveQuality2021,
-  title = {Applying {{Objective Quality Metrics}} to {{Video-Codec Comparisons}}: {{Choosing}} the {{Best Metric}} for {{Subjective Quality Estimation}}},
-  shorttitle = {Applying {{Objective Quality Metrics}} to {{Video-Codec Comparisons}}},
-  booktitle = {Proceedings of the 31th {{International Conference}} on {{Computer Graphics}} and {{Vision}}. {{Volume}} 2},
-  author = {Antsiferova, Anastasia and Yakovenko, Alexander and Safonov, Nickolay and Kulikov, Dmitriy and Gushin, Alexander and Vatolin, Dmitriy},
-  year = {2021},
-  pages = {199--210},
-  publisher = {Keldysh Institute of Applied Mathematics},
-  doi = {10.20948/graphicon-2021-3027-199-210},
-  urldate = {2023-02-19},
-  abstract = {Quality assessment is essential to creating and comparing video compression algorithms. Despite the development of many new quality-assessment methods, well-known and generally accepted codecs comparisons mainly employ classical methods such as PSNR, SSIM, and VMAF. These methods have different variations: temporal pooling techniques, color-component summations and versions. In this paper, we present comparison results for generally accepted video-quality metrics to determine which ones are most relevant to video codecs comparisons. For evaluation we used videos compressed by codecs of different standards at three bitrates, and subjective scores were collected for these videos. Evaluation dataset consists of 789 encoded streams and 320294 subjective scores. VMAF calculated for all Y, U, V color spaced showed the best correlation with subjective quality, and we also showed that the usage of smaller weighting coefficients for U and V components leads to a better correlation with subjective quality.},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  langid = {english},
-  file = {/Users/anastasia/Library/CloudStorage/GoogleDrive-keep.talking94@gmail.com/My Drive/Zotero Laptop/storage/CFJVWUP5/Antsiferova et al. - 2021 - Applying Objective Quality Metrics to Video-Codec .pdf}
+@misc{shenFrom2026,
+  title = {{From Data to Model: A Survey of the Compression Lifecycle in MLLMs}},
+  author = {Wu, Hao and Tong, Junlong and Wang, Xudong and Tan, Yang and Zeng, Changyu and Antsiferova, Anastasia and Shen, Xiaoyu},
+  year = {2026},
+  journal = {Authorea Preprints},
+  abstract = {Multimodal Large Language Models (MLLMs) have demonstrated exceptional proficiency in perception and reasoning, yet their deployment is often constrained by the substantial computational and memory overhead of long multimodal token sequences. While numerous compression techniques have been proposed, the existing approaches remain fragmented across pipeline stages, and the systemlevel connections among them are not yet clearly articulated. In this work, we present a unified perspective on the compression lifecycle of MLLMs, spanning the pipeline from raw data processing to language model inference. We organize compression methods according to their intervention points at the input, encoder, projector, and LLM levels. Across these levels, we distill five fundamental compression operations, namely dropping, aggregation, encoding, resampling, and skipping, which establish a consistent framework for analysis and facilitate an in-depth discussion of their underlying mechanisms. Furthermore, we discuss compression from the perspectives of system bottlenecks and multi-level composition, highlighting practical implications for selecting and combining techniques in efficient MLLM deployment. To support continuous updates and community tracking of the latest advances in this area, we maintain a public repository: https://github.com/EIT-NLP/Awesome-MLLM-Compression.},
+  bibtex_show = {true},
+  google_scholar_id = {blknAaTinKkC},
+  html = {https://www.techrxiv.org/doi/full/10.36227/techrxiv.177220375.55495124},
 }
 
-@misc{antsiferovaComparingRobustnessModern2023,
-  title = {Comparing the Robustness of Modern No-Reference Image- and Video-Quality Metrics to Adversarial Attacks},
+@article{vatolinSpectral2026,
+  title = {{Spectral Robustness Mixer: Cross-Scale Neck for Robust No-Reference Image Quality Assessment}},
+  author = {Rasheed, Bader and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2026},
+  journal = {Technologies},
+  abstract = {No-reference image quality assessment (NR-IQA) models achieve high correlation with human mean opinion scores (MOS) on clean benchmarks, yet recent work shows they can be highly vulnerable to small adversarial perturbations that severely degrade ranking consistency, including in black-box settings. We introduce the Spectral Robustness Mixer (SRM), a lightweight neck inserted between an NR-IQA backbone and regression head, designed to reduce adversarial sensitivity without changing the dataset, label format, or target metric. SRM couples (i) deep-to-shallow cross-scale fusion via a Nyström low-rank attention surrogate,(ii) ridge-conditioned landmark kernels with ridge regularization, solved via numerically stable small-matrix factorization (SVD/LU) to improve conditioning, and (iii) variance-aware entropy-regularized fusion gates with a bounded gain cap to limit gradient amplification. We evaluate …},
+  bibtex_show = {true},
+  google_scholar_id = {JV2RwH3_ST0C},
+  html = {https://www.mdpi.com/2227-7080/14/3/145},
+}
+
+@misc{antsiferovaBirqa2026,
+  title = {{BiRQA: Bidirectional Robust Quality Assessment for Images}},
+  author = {Gushchin, Aleksandr and Vatolin, Dmitriy S and Antsiferova, Anastasia},
+  year = {2026},
+  journal = {arXiv preprint arXiv:2602.20351},
+  abstract = {Full-Reference image quality assessment (FR IQA) is important for image compression, restoration and generative modeling, yet current neural metrics remain slow and vulnerable to adversarial perturbations. We present BiRQA, a compact FR IQA metric model that processes four fast complementary features within a bidirectional multiscale pyramid. A bottom-up attention module injects fine-scale cues into coarse levels through an uncertainty-aware gate, while a top-down cross-gating block routes semantic context back to high resolution. To enhance robustness, we introduce Anchored Adversarial Training, a theoretically grounded strategy that uses clean "anchor" samples and a ranking loss to bound pointwise prediction error under attacks. On five public FR IQA benchmarks BiRQA outperforms or matches the previous state of the art (SOTA) while running ~3x faster than previous SOTA models. Under unseen white-box attacks it lifts SROCC from 0.30-0.57 to 0.60-0.84 on KADID-10k, demonstrating substantial robustness gains. To our knowledge, BiRQA is the only FR IQA model combining competitive accuracy with real-time throughput and strong adversarial resilience.},
+  bibtex_show = {true},
+  google_scholar_id = {M3NEmzRMIkIC},
+  html = {https://arxiv.org/abs/2602.20351},
+}
+
+@misc{antsiferovaUniversal2026,
+  title = {{Universal Anti-forensics Attack against Image Forgery Detection via Multi-modal Guidance}},
+  author = {Li, Haipeng and Peng, Rongxuan and Luo, Anwei and Tan, Shunquan and Chen, Changsheng and Antsiferova, Anastasia},
+  year = {2026},
+  journal = {arXiv preprint arXiv:2602.06530},
+  abstract = {The rapid advancement of AI-Generated Content (AIGC) technologies poses significant challenges for authenticity assessment. However, existing evaluation protocols largely overlook anti-forensics attack, failing to ensure the comprehensive robustness of state-of-the-art AIGC detectors in real-world applications. To bridge this gap, we propose ForgeryEraser, a framework designed to execute universal anti-forensics attack without access to the target AIGC detectors. We reveal an adversarial vulnerability stemming from the systemic reliance on Vision-Language Models (VLMs) as shared backbones (e.g., CLIP), where downstream AIGC detectors inherit the feature space of these publicly accessible models. Instead of traditional logit-based optimization, we design a multi-modal guidance loss to drive forged image embeddings within the VLM feature space toward text-derived authentic anchors to erase forgery traces, while repelling them from forgery anchors. Extensive experiments demonstrate that ForgeryEraser causes substantial performance degradation to advanced AIGC detectors on both global synthesis and local editing benchmarks. Moreover, ForgeryEraser induces explainable forensic models to generate explanations consistent with authentic images for forged images. Our code will be made publicly available.},
+  bibtex_show = {true},
+  google_scholar_id = {isC4tDSrTZIC},
+  html = {https://arxiv.org/abs/2602.06530},
+}
+
+@article{antsiferovaImproving2026,
+  title = {{Improving Transferability of Adversarial Attacks via Maximization and Targeting from Image to Video Quality Assessment}},
+  author = {Gotin, Georgii and Shumitskaya, Ekaterina and Vatolin, Dmitriy and Antsiferova, Anastasia},
+  year = {2026},
+  journal = {Big Data and Cognitive Computing},
+  abstract = {This paper proposes a novel method for transferable adversarial attacks from Image Quality Assessment (IQA) to Video Quality Assessment (VQA) models. Attacking modern VQA models is challenging due to their high complexity and the temporal nature of video content. Since IQA and VQA models share similar low-and mid-level feature representations, and IQA models are substantially cheaper and faster to run, we leverage them as surrogates to generate transferable adversarial perturbations. Our method, MaxT-I2VQA jointly Maximizes IQA scores and Targets IQA feature activations to improve transferability from IQA to VQA models. We first analyze the correlation between IQA and VQA internal features and use these insights to design a feature-targeting loss. We evaluate MaxT-I2VQA by transferring attacks from four state-of-the-art IQA models to four recent VQA models and compare against three competitive baselines. Compared to prior methods, MaxT-I2VQA increases the transferability of an attack success rate by 7.9% and reduces per-example attack runtime by 8 times. Our experiments confirm that IQA and VQA feature spaces are sufficiently aligned to enable effective cross-task transfer.},
+  bibtex_show = {true},
+  google_scholar_id = {k_IJM867U9cC},
+  html = {https://www.mdpi.com/2504-2289/10/2/50},
+}
+
+@misc{vatolinCrossmodal2025,
+  title = {{Cross-Modal Transferable Image-to-Video Attack on Video Quality Metrics}},
+  author = {Gotin, Georgii and Shumitskaya, Ekaterina and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2025},
+  journal = {arXiv preprint arXiv:2501.08415},
+  abstract = {Recent studies have revealed that modern image and video quality assessment (IQA/VQA) metrics are vulnerable to adversarial attacks. An attacker can manipulate a video through preprocessing to artificially increase its quality score according to a certain metric, despite no actual improvement in visual quality. Most of the attacks studied in the literature are white-box attacks, while black-box attacks in the context of VQA have received less attention. Moreover, some research indicates a lack of transferability of adversarial examples generated for one model to another when applied to VQA. In this paper, we propose a cross-modal attack method, IC2VQA, aimed at exploring the vulnerabilities of modern VQA models. This approach is motivated by the observation that the low-level feature spaces of images and videos are similar. We investigate the transferability of adversarial perturbations across different modalities; specifically, we analyze how adversarial perturbations generated on a white-box IQA model with an additional CLIP module can effectively target a VQA model. The addition of the CLIP module serves as a valuable aid in increasing transferability, as the CLIP model is known for its effective capture of low-level semantics. Extensive experiments demonstrate that IC2VQA achieves a high success rate in attacking three black-box VQA models. We compare our method with existing black-box attack strategies, highlighting its superiority in terms of attack success within the same number of iterations and levels of attack strength. We believe that the proposed method will contribute to the deeper analysis of robust VQA metrics.},
+  bibtex_show = {true},
+  google_scholar_id = {HDshCWvjkbEC},
+  html = {https://arxiv.org/abs/2501.08415},
+}
+
+@article{vatolinRobustness2025,
+  title = {{Robustness as Architecture: Designing IQA Models to Withstand Adversarial Perturbations}},
+  author = {Meleshin, Igor and Chistyakova, Anna and Antsiferova, Anastasia and Vatolin, Dmitriy S},
+  year = {2025},
+  abstract = {Image Quality Assessment (IQA) models are increasingly relied upon to evaluate image quality in real-world systems --- from compression and enhancement to generation and streaming. Yet their adoption brings a fundamental risk: these models are inherently unstable. Adversarial manipulations can easily fool them, inflating scores and undermining trust. Traditionally, such vulnerabilities are addressed through data-driven defenses --- adversarial retraining, regularization, or input purification. But what if this is the wrong lens? What if robustness in perceptual models is not something to learn but something to design? In this work, we propose a provocative idea: robustness as an architectural prior. Rather than training models to resist perturbations, we reshape their internal structure to suppress sensitivity from the ground up. We achieve this by enforcing orthogonal information flow, constraining the network to norm …},
+  bibtex_show = {true},
+  google_scholar_id = {_Qo2XoVZTnwC},
+  html = {https://dl.acm.org/doi/abs/10.1145/3746027.3758182},
+}
+
+@article{antsiferovaStochastic2025,
+  title = {{Stochastic BIQA: Median randomized smoothing for certified blind image quality assessment}},
+  author = {Shumitskaya, Ekaterina and Pautov, Mikhail and Vatolin, Dmitriy and Antsiferova, Anastasia},
+  year = {2025},
+  journal = {Computer Vision and Image Understanding},
+  abstract = {Most modern No-Reference Image-Quality Assessment (NR-IQA) metrics are based on neural networks vulnerable to adversarial attacks. Although some empirical defenses for IQA metrics were proposed, they do not provide theoretical guarantees and may be vulnerable to adaptive attacks. This work focuses on developing a provably robust no-reference IQA metric. The proposed DMS-IQA method is based on randomized Median Smoothing combined with an additional convolution denoiser with ranking loss to improve the SROCC and PLCC scores of the defended IQA metric. We theoretically show that the output of the defended IQA metric changes by no more than a predefined delta for all input perturbations bounded by a given l 2 norm. Compared with two prior methods on three datasets, our method exhibited superior SROCC and PLCC scores while maintaining comparable certified guarantees. We …},
+  bibtex_show = {true},
+  google_scholar_id = {hFOr9nPyWt4C},
+  html = {https://www.sciencedirect.com/science/article/pii/S1077314225001705},
+}
+
+@article{vatolinStable2025,
+  selected = {true},
+  title = {{Stable VMAF: investigating VMAF’s vulnerabilities to adversarial attacks}},
+  author = {Lavrushkin, Sergey and Khrebtov, Maksim and Antsiferova, Anastasia and Bychkov, Georgii and Soloviev, Alexey and Vatolin, Dmitriy},
+  year = {2025},
+  journal = {Multimedia Systems},
+  abstract = {In recent years, Video Multimethod Assessment Fusion (VMAF) has become a prominent metric thanks to its high correlation with subjective video-quality assessments, making it preferable for evaluating video codecs and video-processing algorithms. Like many machine-learning-based metrics, however, it is susceptible to adversarial attacks, which can manipulate scores while preserving or even degrading visual quality. This paper investigates VMAF’s vulnerabilities to such attacks and proposes a novel, stable modification to enhance its robustness. We propose two adversarial attacks: an evolutionary-based attack, which achieves an average VMAF gain of 9.27 with a processing speed of 21.116 FPS, and a distillation-based neural attack, yielding a 6.86 average VMAF gain at 7.016 FPS. Using these methods, we created a dataset for pseudoadversarial training of our stable-VMAF modification, which …},
+  bibtex_show = {true},
+  google_scholar_id = {R3hNpaxXUhUC},
+  html = {https://link.springer.com/article/10.1007/s00530-025-01795-5},
+}
+
+@misc{antsiferovaWatermark2025,
+  title = {{Watermark Overwriting Attack on StegaStamp algorithm}},
+  author = {Serzhenko, IF and Khaertdinova, LA and Pautov, MA and Antsiferova, AV},
+  year = {2025},
+  journal = {arXiv preprint arXiv:2505.01474},
+  abstract = {This paper presents an attack method on the StegaStamp watermarking algorithm that completely removes watermarks from an image with minimal quality loss, developed as part of the NeurIPS "Erasing the invisible" competition.},
+  bibtex_show = {true},
+  google_scholar_id = {e5wmG9Sq2KIC},
+  html = {https://arxiv.org/abs/2505.01474},
+}
+
+@inproceedings{markinWibe2025,
+  title = {{WIBE: Watermarks for generated Images–Benchmarking & Evaluation}},
+  author = {Yakushev, Aleksey and Akimenkov, Aleksandr and Abud, Khaled and Obydenkov, Dmitry and Serzhenko, Irina and Aistov, Kirill and Kovalev, Egor and Fomin, Stanislav and Antsiferova, Anastasia and Lukianov, Kirill and Markin, Yury},
+  year = {2025},
+  booktitle = {2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  abstract = {As invisible image watermarking gains importance for verifying AI-generated content, consistency and reproducibility remain major challenges due to the diverse methods, datasets, attacks, and metrics.We aim to provide a flexible, extensible, and user-friendly framework that enables systematic testing of watermarking methods under various conditions.We developed WIBE, a framework with command-line interfaces and YAML configuration support, enabling users to evaluate a wide range of image watermarking algorithms on various datasets, apply configurable attack scenarios, and compute standard performance metrics. WIBE includes a library of pre-implemented methods and supports integration of new watermarking techniques, attacks, metrics, and datasets through a plugin-based architecture.WIBE enables rapid prototyping, reproducible experiments, and insightful comparison of watermarking robustness …},
+  bibtex_show = {true},
+  google_scholar_id = {r0BpntZqJG4C},
+  html = {https://ieeexplore.ieee.org/abstract/document/11334362/},
+}
+
+@article{antsiferovaLehacvqad2025,
+  abbr = {ACM MM},
+  selected = {true},
+  title = {{LEHA-CVQAD: Dataset To Enable Generalized Video Quality Assessment of Compression Artifacts}},
+  author = {Gushchin, Aleksandr and Smirnov, Maksim and Vatolin, Dmitriy S and Antsiferova, Anastasia},
+  year = {2025},
+  abstract = {We propose the LEHA-CVQAD (Large-scale Enriched Human Annotated) dataset, which comprises 6,240 clips for compression-oriented video quality assessment. 59 source videos are encoded with 186 codec-preset variants, ≈1.8M pairwise, and ≈1.5k MOS ratings are fused into a single quality scale; part of the videos remains hidden for blind evaluation. We also propose Rate-Distortion Alignment Error (RDAE), a novel evaluation metric that quantifies how well VQA models preserve bitrate-quality ordering, directly supporting codec parameter tuning. Testing IQA/VQA methods reveals that popular VQA metrics exhibit high RDAE and lower correlations, underscoring the dataset's challenges and utility. The open part and the results of LEHA-CVQAD are available at https://aleksandrgushchin.github.io/lcvqad/},
+  bibtex_show = {true},
+  google_scholar_id = {4JMBOYKVnBMC},
+  html = {https://dl.acm.org/doi/abs/10.1145/3746027.3758303},
+}
+
+@misc{antsiferovaFsiqa2025,
+  title = {{FS-IQA: Certified Feature Smoothing for Robust Image Quality Assessment}},
+  author = {Shumitskaya, Ekaterina and Vatolin, Dmitriy and Antsiferova, Anastasia},
+  year = {2025},
+  journal = {arXiv preprint arXiv:2508.05516},
+  abstract = {We propose a novel certified defense method for Image Quality Assessment (IQA) models based on randomized smoothing with noise applied in the feature space rather than the input space. Unlike prior approaches that inject Gaussian noise directly into input images, often degrading visual quality, our method preserves image fidelity while providing robustness guarantees. To formally connect noise levels in the feature space with corresponding input-space perturbations, we analyze the maximum singular value of the backbone network's Jacobian. Our approach supports both full-reference (FR) and no-reference (NR) IQA models without requiring any architectural modifications, suitable for various scenarios. It is also computationally efficient, requiring a single backbone forward pass per image. Compared to previous methods, it reduces inference time by 99.5% without certification and by 20.6% when certification is applied. We validate our method with extensive experiments on two benchmark datasets, involving six widely-used FR and NR IQA models and comparisons against five state-of-the-art certified defenses. Our results demonstrate consistent improvements in correlation with subjective quality scores by up to 30.9%.},
+  bibtex_show = {true},
+  google_scholar_id = {j3f4tGmQtD8C},
+  html = {https://arxiv.org/abs/2508.05516},
+}
+
+@misc{antsiferovaNicrobustbench2025,
+  title = {{NIC-RobustBench: A Comprehensive Open-Source Toolkit for Neural Image Compression and Robustness Analysis}},
+  author = {Bychkov, Georgii and Abud, Khaled and Kovalev, Egor and Gushchin, Alexander and Vatolin, Dmitriy and Antsiferova, Anastasia},
+  year = {2025},
+  journal = {arXiv preprint arXiv:2506.19051},
+  abstract = {Adversarial robustness of neural networks is an increasingly important area of research, combining studies on computer vision models, large language models (LLMs), and others. With the release of JPEG AI -- the first standard for end-to-end neural image compression (NIC) methods -- the question of evaluating NIC robustness has become critically significant. However, previous research has been limited to a narrow range of codecs and attacks. To address this, we present \textbf{NIC-RobustBench}, the first open-source framework to evaluate NIC robustness and adversarial defenses' efficiency, in addition to comparing Rate-Distortion (RD) performance. The framework includes the largest number of codecs among all known NIC libraries and is easily scalable. The paper demonstrates a comprehensive overview of the NIC-RobustBench framework and employs it to analyze NIC robustness. Our code is available online at https://github.com/msu-video-group/NIC-RobustBench.},
+  bibtex_show = {true},
+  google_scholar_id = {RHpTSmoSYBkC},
+  html = {https://arxiv.org/abs/2506.19051},
+}
+
+@article{vatolinTowards2024,
+  title = {{Towards adversarial robustness verification of no-reference image-and video-quality metrics}},
+  author = {Shumitskaya, Ekaterina and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2024},
+  journal = {Computer Vision and Image Understanding},
+  abstract = {In this paper, we propose a new method of analysing the stability of modern deep image- and video-quality metrics to different adversarial attacks. The stability analysis of quality metrics is becoming important because nowadays the majority of metrics employ neural networks. Unlike traditional quality metrics based on nature scene statistics or other hand-crafter features, learning-based methods are more vulnerable to adversarial attacks. The usage of such unstable metrics in benchmarks may lead to being exploited by the developers of image and video processing algorithms to achieve higher positions in leaderboards. The majority of known adversarial attacks on images designed for computer vision tasks are not fast enough to be used within real-time video processing algorithms. We propose four fast attacks on metrics suitable for real-life scenarios. The proposed methods are based on creating perturbations …},
+  bibtex_show = {true},
+  google_scholar_id = {mVmsd5A6BfQC},
+  html = {https://www.sciencedirect.com/science/article/pii/S107731422300293X},
+}
+
+@inproceedings{vatolinComparing2024,
+  abbr = {AAAI},
+  selected = {true},
+  title = {{Comparing the robustness of modern no-reference image-and video-quality metrics to adversarial attacks}},
   author = {Antsiferova, Anastasia and Abud, Khaled and Gushchin, Aleksandr and Shumitskaya, Ekaterina and Lavrushkin, Sergey and Vatolin, Dmitriy},
+  year = {2024},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  abstract = {Nowadays neural-network-based image- and video-quality metrics show better performance compared to traditional methods. However, they also became more vulnerable to adversarial attacks that increase metrics’ scores without improving visual quality. The existing benchmarks of quality metrics compare their performance in terms of correlation with subjective quality and calculation time. However, the adversarial robustness of image-quality metrics is also an area worth researching. In this paper, we analyse modern metrics' robustness to different adversarial attacks. We adopted adversarial attacks from computer vision tasks and compared attacks' efficiency against 15 no-reference image/video-quality metrics. Some metrics showed high resistance to adversarial attacks which makes their usage in benchmarks safer than vulnerable metrics. The benchmark accepts new metrics submissions for researchers who want to make their metrics more robust to attacks or to find such metrics for their needs. Try our benchmark using pip install robustness-benchmark.},
+  bibtex_show = {true},
+  google_scholar_id = {4DMP91E08xMC},
+  html = {https://ojs.aaai.org/index.php/AAAI/article/view/27827},
+}
+
+@inproceedings{vatolinIoi2024,
+  abbr = {ICML},
+  selected = {true},
+  title = {{IOI: Invisible One-Iteration Adversarial Attack on No-Reference Image-and Video-Quality Metrics}},
+  author = {Shumitskaya, Ekaterina and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2024},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  abstract = {No-reference image- and video-quality metrics are widely used in video processing benchmarks. The robustness of learning-based metrics under video attacks has not been widely studied. In addition to having success, attacks on metrics that can be employed in video processing benchmarks must be fast and imperceptible. This paper introduces an Invisible One-Iteration (IOI) adversarial attack on no-reference image and video quality metrics. The proposed method uses two modules to ensure high visual quality and temporal stability of adversarial videos and runs for one iteration, which makes it fast. We compared our method alongside eight prior approaches using image and video datasets via objective and subjective tests. Our method exhibited superior visual quality across various attacked metric architectures while maintaining comparable attack success and speed. We made the code available on GitHub: https://github.com/katiashh/ioi-attack.},
+  bibtex_show = {true},
+  google_scholar_id = {IWHjjKOFINEC},
+  html = {https://openreview.net/forum?id=Chy4rSqy4Y},
+}
+
+@article{turdakovIncreasing2024,
+  title = {{Increasing the robustness of image quality assessment models through adversarial training}},
+  author = {Chistyakova, Anna and Antsiferova, Anastasia and Khrebtov, Maksim and Lavrushkin, Sergey and Arkhipenko, Konstantin and Vatolin, Dmitriy and Turdakov, Denis},
+  year = {2024},
+  journal = {Technologies},
+  abstract = {The adversarial robustness of image quality assessment (IQA) models to adversarial attacks is emerging as a critical issue. Adversarial training has been widely used to improve the robustness of neural networks to adversarial attacks, but little in-depth research has examined adversarial training as a way to improve IQA model robustness. This study introduces an enhanced adversarial training approach tailored to IQA models; it adjusts the perceptual quality scores of adversarial images during training to enhance the correlation between an IQA model’s quality and the subjective quality scores. We also propose a new method for comparing IQA model robustness by measuring the Integral Robustness Score; this method evaluates the IQA model resistance to a set of adversarial perturbations with different magnitudes. We used our adversarial training approach to increase the robustness of five IQA models. Additionally, we tested the robustness of adversarially trained IQA models to 16 adversarial attacks and conducted an empirical probabilistic estimation of this feature.},
+  bibtex_show = {true},
+  google_scholar_id = {hC7cP41nSMkC},
+  html = {https://www.mdpi.com/2227-7080/12/11/220},
+}
+
+@inproceedings{antsiferovaGuardians2024,
+  abbr = {ICML},
+  selected = {true},
+  title = {{Guardians of Image Quality: Benchmarking Defenses Against Adversarial Attacks on Image Quality Metrics}},
+  author = {Gushchin, Alexander and Abud, Khaled and Bychkov, Georgii and Shumitskaya, Ekaterina and Chistyakova, Anna and Lavrushkin, Sergey and Rasheed, Bader and Malyshev, Kirill and Vatolin, Dmitriy and Antsiferova, Anastasia},
+  year = {2024},
+  booktitle = {Forty-second International Conference on Machine Learning},
+  abstract = {In the field of Image Quality Assessment (IQA), the adversarial robustness of the metrics poses a critical concern. This paper presents a comprehensive benchmarking study of various defense mechanisms in response to the rise in adversarial attacks on IQA. We systematically evaluate 25 defense strategies, including adversarial purification, adversarial training, and certified robustness methods. We applied 14 adversarial attack algorithms of various types in both non-adaptive and adaptive settings and tested these defenses against them. We analyze the differences between defenses and their applicability to IQA tasks, considering that they should preserve IQA scores and image quality. The proposed benchmark aims to guide future developments and accepts submissions of new methods, with the latest results available online: https://videoprocessing.ai/benchmarks/iqa-defenses.html.},
+  bibtex_show = {true},
+  google_scholar_id = {TFP_iSt0sucC},
+  html = {https://arxiv.org/abs/2408.01541},
+}
+
+@article{tuAim2024,
+  title = {{AIM 2024 challenge on compressed video quality assessment: methods and results}},
+  author = {Smirnov, Maksim and Gushchin, Aleksandr and Antsiferova, Anastasia and Vatolin, Dmitry and Timofte, Radu and Jia, Ziheng and Zhang, Zicheng and Sun, Wei and Qian, Jiaying and Cao, Yuqin and Sun, Yinan and Zhu, Yuxin and Min, Xiongkuo and Zhai, Guangtao and De, Kanjar and Luo, Qing and Zhang, Ao-Xiang and Zhang, Peng and Lei, Haibo and Jiang, Linyan and Li, Yaqing and Meng, Wenhui and Tan, Xiaoheng and Wang, Haiqiang and Xu, Xiaozhong and Liu, Shan and Chen, Zhenzhong and Cheng, Zhengxue and Xiao, Jiahao and Xu, Jun and He, Chenlong and Zheng, Qi and Zhu, Ruoxi and Li, Min and Fan, Yibo and Tu, Zhengzhong},
+  year = {2024},
+  abstract = {Video quality assessment (VQA) is a crucial task in the development of video compression standards, as it directly impacts the viewer experience. This paper presents the results of the Compressed Video Quality Assessment challenge, held in conjunction with the Advances in Image Manipulation (AIM) workshop at ECCV 2024. The challenge aimed to evaluate the performance of VQA methods on a diverse dataset of 459 videos, encoded with 14 codecs of various compression standards (AVC/H.264, HEVC/H.265, AV1, and VVC/H.266) and containing a comprehensive collection of compression artifacts. To measure the methods performance, we employed traditional correlation coefficients between their predictions and subjective scores, which were collected via large-scale crowdsourced pairwise human comparisons. For training purposes, participants were provided with the Compressed Video Quality …},
+  bibtex_show = {true},
+  google_scholar_id = {qUcmZB5y_30C},
+  html = {https://link.springer.com/chapter/10.1007/978-3-031-91856-8_13},
+}
+
+@misc{antsiferovaExploring2024,
+  title = {{Exploring adversarial robustness of JPEG AI: methodology, comparison and new methods}},
+  author = {Kovalev, Egor and Bychkov, Georgii and Abud, Khaled and Gushchin, Aleksandr and Chistyakova, Anna and Lavrushkin, Sergey and Vatolin, Dmitriy and Antsiferova, Anastasia},
+  year = {2024},
+  journal = {arXiv preprint arXiv:2411.11795},
+  abstract = {Adversarial robustness of neural networks is an increasingly important area of research, combining studies on computer vision models, large language models (LLMs), and others. With the release of JPEG AI - the first standard for end-to-end neural image compression (NIC) methods - the question of its robustness has become critically significant. JPEG AI is among the first international, real-world applications of neural-network-based models to be embedded in consumer devices. However, research on NIC robustness has been limited to open-source codecs and a narrow range of attacks. This paper proposes a new methodology for measuring NIC robustness to adversarial attacks. We present the first large-scale evaluation of JPEG AI's robustness, comparing it with other NIC models. Our evaluation results and code are publicly available online (link is hidden for a blind review).},
+  bibtex_show = {true},
+  google_scholar_id = {-f6ydRqryjwC},
+  html = {https://arxiv.org/abs/2411.11795},
+}
+
+@misc{vatolinTipatch2024,
+  title = {{Ti-patch: Tiled physical adversarial patch for no-reference video quality metrics}},
+  author = {Leonenkova, Victoria and Shumitskaya, Ekaterina and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2024},
+  journal = {arXiv preprint arXiv:2404.09961},
+  abstract = {Objective no-reference image- and video-quality metrics are crucial in many computer vision tasks. However, state-of-the-art no-reference metrics have become learning-based and are vulnerable to adversarial attacks. The vulnerability of quality metrics imposes restrictions on using such metrics in quality control systems and comparing objective algorithms. Also, using vulnerable metrics as a loss for deep learning model training can mislead training to worsen visual quality. Because of that, quality metrics testing for vulnerability is a task of current interest. This paper proposes a new method for testing quality metrics vulnerability in the physical space. To our knowledge, quality metrics were not previously tested for vulnerability to this attack; they were only tested in the pixel space. We applied a physical adversarial Ti-Patch (Tiled Patch) attack to quality metrics and did experiments both in pixel and physical space. We also performed experiments on the implementation of physical adversarial wallpaper. The proposed method can be used as additional quality metrics in vulnerability evaluation, complementing traditional subjective comparison and vulnerability tests in the pixel space. We made our code and adversarial videos available on GitHub: https://github.com/leonenkova/Ti-Patch.},
+  bibtex_show = {true},
+  google_scholar_id = {dhFuZR0502QC},
+  html = {https://arxiv.org/abs/2404.09961},
+}
+
+@misc{vatolinAdversarial2024,
+  title = {{Adversarial purification for no-reference image-quality metrics: applicability study and new methods}},
+  author = {Gushchin, Aleksandr and Chistyakova, Anna and Minashkin, Vladislav and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2024},
+  journal = {arXiv preprint arXiv:2404.06957},
+  abstract = {Recently, the area of adversarial attacks on image quality metrics has begun to be explored, whereas the area of defences remains under-researched. In this study, we aim to cover that case and check the transferability of adversarial purification defences from image classifiers to IQA methods. In this paper, we apply several widespread attacks on IQA models and examine the success of the defences against them. The purification methodologies covered different preprocessing techniques, including geometrical transformations, compression, denoising, and modern neural network-based methods. Also, we address the challenge of assessing the efficacy of a defensive methodology by proposing ways to estimate output visual quality and the success of neutralizing attacks. Defences were tested against attack on three IQA metrics -- Linearity, MetaIQA and SPAQ. The code for attacks and defences is available at: (link is hidden for a blind review).},
+  bibtex_show = {true},
+  google_scholar_id = {QIV2ME_5wuYC},
+  html = {https://arxiv.org/abs/2404.06957},
+}
+
+@article{antsiferovaAccelerated2024,
+  title = {{Accelerated zero-order sgd under high-order smoothness and overparameterized regime}},
+  author = {Bychkov, Georgii K and Dvinskikh, Darina M and Antsiferova, Anastasia V},
+  year = {2024},
+  journal = {Russian Journal of Nonlinear Dynamics},
+  abstract = {We present a novel gradient-free algorithm to solve a convex stochastic optimization problem, such as those encountered in medicine, physics, and machine learning (e.g., the adversarial multi-armed bandit problem), where the objective function can only be computed through numerical simulation, either as the result of a real experiment or as feedback given by the function evaluations from an adversary. Thus, we suppose that only black-box access to the function values of the objective is available, possibly corrupted by adversarial noise: deterministic or stochastic. The noisy setup can arise naturally from modeling randomness within a simulation or by computer discretization, or when exact values of the function are forbidden due to privacy issues, or when solving nonconvex problems as convex ones with an inexact function oracle. By exploiting higher-order smoothness, fulfilled, e.g., in logistic regression, we improve the performance of zero-order methods developed under the assumption of classical smoothness (or having a Lipschitz gradient). The proposed algorithm enjoys optimal oracle complexity and is designed under an overparameterization setup, i.e., when the number of model parameters is much larger than the size of the training dataset. Overparametrized models fit to the training data perfectly while also having good generalization and outperforming underparameterized models on unseen data. We provide convergence guarantees for the proposed algorithm under both types of noise. Moreover, we estimate the maximum permissible adversarial noise level that maintains the desired accuracy in the Euclidean setup, and then …},
+  bibtex_show = {true},
+  google_scholar_id = {mB3voiENLucC},
+  html = {https://cyberleninka.ru/article/n/accelerated-zero-order-sgd-under-high-order-smoothness-and-overparameterized-regime},
+}
+
+@article{vatolinFast2023,
+  title = {{Fast Adversarial CNN-based Perturbation Attack on No-Reference Image-and Video-Quality Metrics}},
+  author = {Shumitskaya, Ekaterina and Antsiferova, Anastasia and Vatolin, Dmitriy},
   year = {2023},
-  month = dec,
-  number = {arXiv:2310.06958},
-  eprint = {2310.06958},
-  primaryclass = {cs, eess},
-  publisher = {arXiv},
-  urldate = {2024-01-10},
-  abstract = {Nowadays neural-network-based image- and video-quality metrics show better performance compared to traditional methods. However, they also became more vulnerable to adversarial attacks that increase metrics' scores without improving visual quality. The existing benchmarks of quality metrics compare their performance in terms of correlation with subjective quality and calculation time. However, the adversarial robustness of image-quality metrics is also an area worth researching. In this paper, we analyse modern metrics' robustness to different adversarial attacks. We adopted adversarial attacks from computer vision tasks and compared attacks' efficiency against 15 no-reference image/video-quality metrics. Some metrics showed high resistance to adversarial attacks which makes their usage in benchmarks safer than vulnerable metrics. The benchmark accepts new metrics submissions for researchers who want to make their metrics more robust to attacks or to find such metrics for their needs. Try our benchmark using pip install robustness-benchmark.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Multimedia,Electrical Engineering and Systems Science - Image and Video Processing}
+  journal = {Tiny Papers @ {ICLR} 2023},
+  abstract = {Modern neural-network-based no-reference image- and video-quality metrics exhibit performance as high as full-reference metrics. These metrics are widely used to improve visual quality in computer vision methods and compare video processing methods. However, these metrics are not stable to traditional adversarial attacks, which can cause incorrect results. Our goal is to investigate the boundaries of no-reference metrics applicability, and in this paper, we propose a fast adversarial perturbation attack on no-reference quality metrics. The proposed attack (FACPA) can be exploited as a preprocessing step in real-time video processing and compression algorithms. This research can yield insights to further aid in designing of stable neural-network-based no-reference quality metrics.},
+  bibtex_show = {true},
+  google_scholar_id = {aqlVkmm33-oC},
+  html = {https://arxiv.org/abs/2305.15544},
 }
 
-@inproceedings{antsiferovaInfluence3DVideo2017,
-  title = {The Influence of {{3D}} Video Artifacts on Discomfort of 302 Viewers},
-  booktitle = {2017 {{International Conference}} on {{3D Immersion}} ({{IC3D}})},
-  author = {Antsiferova, A. and Vatolin, D.},
-  year = {2017},
-  month = dec,
-  pages = {1--8},
-  publisher = {IEEE},
-  address = {Brussels},
-  doi = {10.1109/IC3D.2017.8251897},
-  urldate = {2023-02-19},
-  copyright = {All rights reserved},
-  isbn = {978-1-5386-4655-7},
-  file = {/Users/anastasia/Library/CloudStorage/GoogleDrive-keep.talking94@gmail.com/My Drive/Zotero Laptop/storage/HWEP5VIE/Antsiferova_Vatolin_2017_The influence of 3D video artifacts on discomfort of 302 viewers.pdf}
+@misc{galaktionovDevelopment2023,
+  title = {{Development of neural network-based video preprocessing method to increase the VMAF score relative to source video using distillation}},
+  author = {Solov'ev, Aleksei Valer'evich and Antsiferova, Anastasiya Vsevolodovna and Vatolin, Dmitry Sergeevich and Galaktionov, Vladimir Aleksandrovich},
+  year = {2023},
+  journal = {Preprints of the Keldysh Institute of Applied Mathematics},
+  abstract = {AV Solovev, AV Antsiferova, DS Vatolin, VA Galaktionov, “Development of neural network-based 
+video preprocessing method to increase the VMAF score relative to source video using 
+distillation”, Keldysh Institute preprints, 2023, 066, 11 pp. Preprints of the Keldysh Institute of 
+Applied Mathematics RUS ENG JOURNALS PEOPLE ORGANISATIONS CONFERENCES 
+SEMINARS VIDEO LIBRARY PACKAGE AMSBIB General information Latest issue Archive 
+Search papers Search references RSS Latest issue Current issues Archive issues What is 
+RSS Keldysh Institute preprints: Year: Volume: Issue: Page: Find Your organisation: Google 
+bot Personal entry: Login: Password: Save password Enter Forgotten password? Register 
+Powered by MathJax Preprints of the Keldysh Institute of Applied Mathematics, 2023, 066, 11 
+pp. DOI: https://doi.org/10.20948/prepr-2023-66 (Mi ipmp3198) Development of neural network-…},
+  bibtex_show = {true},
+  google_scholar_id = {Wp0gIr-vW9MC},
+  html = {https://www.mathnet.ru/eng/ipmp3198},
 }
 
-@inproceedings{antsiferovaVideoCompressionDataset2022,
-  title = {Video Compression Dataset and Benchmark of Learning-Based Video-Quality Metrics},
-  booktitle = {Thirty-Sixth {{Conference}} on {{Neural Information Processing Systems Datasets}} and {{Benchmarks Track}}},
-  author = {Antsiferova, Anastasia and Lavrushkin, Sergey and Smirnov, Maksim and Gushchin, Aleksandr and Vatolin, Dmitriy S. and Kulikov, Dmitriy},
+@inproceedings{kulikovVideo2022,
+  abbr = {NeurIPS},
+  selected = {true},
+  title = {{Video compression dataset and benchmark of learning-based video-quality metrics}},
+  author = {Antsiferova, Anastasia and Lavrushkin, Sergey and Smirnov, Maksim and Gushchin, Aleksandr and Vatolin, Dmitriy and Kulikov, Dmitriy},
   year = {2022},
-  month = jun,
-  urldate = {2023-08-10},
-  abstract = {Video-quality measurement is a critical task in video processing. Nowadays, many implementations of new encoding standards - such as AV1, VVC, and LCEVC - use deep-learning-based decoding algorithms with perceptual metrics that serve as optimization objectives. But investigations of the performance of modern video- and image-quality metrics commonly employ videos compressed using older standards, such as AVC. In this paper, we present a new benchmark for video-quality metrics that evaluates video compression. It is based on a new dataset consisting of about 2,500 streams encoded using different standards, including AVC, HEVC, AV1, VP9, and VVC. Subjective scores were collected using crowdsourced pairwise comparisons. The list of evaluated metrics includes recent ones based on machine learning and neural networks. The results demonstrate that new no-reference metrics exhibit high correlation with subjective quality and approach the capability of top full-reference metrics.},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  langid = {english},
-  file = {/Users/anastasia/Library/CloudStorage/GoogleDrive-keep.talking94@gmail.com/My Drive/Zotero Laptop/storage/MSZ8V88Z/Antsiferova et al_2022_Video compression dataset and benchmark of learning-based video-quality metrics.pdf}
+  booktitle = {Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  abstract = {Video-quality measurement is a critical task in video processing. Nowadays, many implementations of new encoding standards-such as AV1, VVC, and LCEVC-use deep-learning-based decoding algorithms with perceptual metrics that serve as optimization objectives. But investigations of the performance of modern video-and image-quality metrics commonly employ videos compressed using older standards, such as AVC. In this paper, we present a new benchmark for video-quality metrics that evaluates video compression. It is based on a new dataset consisting of about 2,500 streams encoded using different standards, including AVC, HEVC, AV1, VP9, and VVC. Subjective scores were collected using crowdsourced pairwise comparisons. The list of evaluated metrics includes recent ones based on machine learning and neural networks. The results demonstrate that new no-reference metrics exhibit high correlation with subjective quality and approach the capability of top full-reference metrics.},
+  bibtex_show = {true},
+  google_scholar_id = {roLk4NBRz8UC},
+  html = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/59ac9f01ea2f701310f3d42037546e4a-Abstract-Datasets_and_Benchmarks.html},
 }
+
+@inproceedings{vatolinUniversal2022,
+  title = {{Universal perturbation attack on differentiable no-reference image-and video-quality metrics}},
+  author = {Shumitskaya, Ekaterina and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2022},
+  booktitle = {The 33rd British Machine Vision Conference},
+  abstract = {Universal adversarial perturbation attacks are widely used to analyze image classifiers that employ convolutional neural networks. Nowadays, some attacks can deceive image- and video-quality metrics. So sustainability analysis of these metrics is important. Indeed, if an attack can confuse the metric, an attacker can easily increase quality scores. When developers of image- and video-algorithms can boost their scores through detached processing, algorithm comparisons are no longer fair. Inspired by the idea of universal adversarial perturbation for classifiers, we suggest a new method to attack differentiable no-reference quality metrics through universal perturbation. We applied this method to seven no-reference image- and video-quality metrics (PaQ-2-PiQ, Linearity, VSFA, MDTVSFA, KonCept512, Nima and SPAQ). For each one, we trained a universal perturbation that increases the respective scores. We also propose a method for assessing metric stability and identify the metrics that are the most vulnerable and the most resistant to our attack. The existence of successful universal perturbations appears to diminish the metric's ability to provide reliable scores. We therefore recommend our proposed method as an additional verification of metric reliability to complement traditional subjective tests and benchmarks.},
+  bibtex_show = {true},
+  google_scholar_id = {Se3iqnhoufwC},
+  html = {https://arxiv.org/abs/2211.00366},
+}
+
+@article{khachayTrusted2022,
+  title = {{Trusted artificial intelligence: Challenges and promising solutions}},
+  author = {Turdakov, D Yu and Avetisyan, Arutyun Ishkhanovich and Arkhipenko, Konstantin Vladimirovich and Antsiferova, Anastasiya Vsevolodovna and Vatolin, Dmitry Sergeevich and Volkov, SS and Gasnikov, Alexander Vladimirovich and Devyatkin, Dmitry Alekseevich and Drobyshevsky, MD and Kovalenko, AP and Krivonosov, Mikhail Igorevich and Lukashevich, Natal'ya Valentinovna and Malykh, Valentin Andreevich and Nikolenko, Sergei Igorevich and Oseledets, Ivan Valer'evich and Perminov, Andrey Igorevich and Sochenkov, Il'ya Vladimirovich and Tikhomirov, MM and Fedotov, Andrey Nikolayevich and Khachay, M Yu},
+  year = {2022},
+  journal = {Doklady mathematics},
+  abstract = {Wide applications of artificial intelligence technologies have led to new threats that cannot be effectively addressed using current tools for secure software development. To meet the challenge, the Research Center for Trusted Artificial Intelligence based on the Institute for Systems Analysis of the Russian Academy of Sciences was founded within the federal project “Artificial Intelligence” in 2021. Its objectives are the creation of scientific and technological basis for building trust in AI technologies. This paper discusses the risks and threats of applying artificial intelligence technologies, and describes the research directions and intermediate results produced at the Research Center for Trusted Artificial Intelligence.},
+  bibtex_show = {true},
+  google_scholar_id = {KlAtU1dfN6UC},
+  html = {https://link.springer.com/article/10.1134/S1064562422060205},
+}
+
+@article{vatolinHacking2021,
+  title = {{Hacking VMAF and VMAF NEG: vulnerability to different preprocessing methods}},
+  author = {Siniukov, Maksim and Antsiferova, Anastasia and Kulikov, Dmitriy and Vatolin, Dmitriy},
+  year = {2021},
+  abstract = {Video quality measurement plays a critical role in the development of video processing applications. In this paper, we show how popular quality metrics VMAF and its tuning-resistant version VMAF NEG can be artificially increased by video preprocessing. We propose a pipeline for tuning parameters of processing algorithms which allows to increase VMAF by up to 218.8%. A subjective comparison of preprocessed videos showed that with the majority of methods visual quality drops down or stays unchanged. We show that VMAF NEG scores can also be increased by some preprocessing methods by up to 21.9%.},
+  bibtex_show = {true},
+  google_scholar_id = {WF5omc3nYNoC},
+  html = {https://dl.acm.org/doi/abs/10.1145/3508259.3508272},
+}
+
+@inproceedings{vatolinErqa2021,
+  title = {{Erqa: Edge-restoration quality assessment for video super-resolution}},
+  author = {Kirillova, Anastasia and Lyapustin, Eugene and Antsiferova, Anastasia and Vatolin, Dmitry},
+  year = {2021},
+  booktitle = {17th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications},
+  abstract = {Despite the growing popularity of video super-resolution (VSR), there is still no good way to assess the quality of the restored details in upscaled frames. Some SR methods may produce the wrong digit or an entirely different face. Whether a method's results are trustworthy depends on how well it restores truthful details. Image super-resolution can use natural distributions to produce a high-resolution image that is only somewhat similar to the real one. VSR enables exploration of additional information in neighboring frames to restore details from the original scene. The ERQA metric, which we propose in this paper, aims to estimate a model's ability to restore real details using VSR. On the assumption that edges are significant for detail and character recognition, we chose edge fidelity as the foundation for this metric. Experimental validation of our work is based on the MSU Video Super-Resolution Benchmark, which includes the most difficult patterns for detail restoration and verifies the fidelity of details from the original frame. Code for the proposed metric is publicly available at https://github.com/msu-video-group/ERQA.},
+  bibtex_show = {true},
+  google_scholar_id = {_FxGoFyzp5QC},
+  html = {https://arxiv.org/abs/2110.09992},
+}
+
+@article{vatolinApplying2021,
+  title = {{Applying objective quality metrics to video-codec comparisons: Choosing the best metric for subjective quality estimation}},
+  author = {Antsiferova, Anastasia and Yakovenko, Alexander and Safonov, Nickolay and Kulikov, Dmitriy and Gushchin, Alexander and Vatolin, Dmitriy},
+  year = {2021},
+  journal = {GraphiCon},
+  abstract = {Quality assessment is essential to creating and comparing video compression algorithms. Despite the development of many new quality-assessment methods, well-known and generally accepted codecs comparisons mainly employ classical methods such as PSNR, SSIM, and VMAF. These methods have different variations: temporal pooling techniques, color-component summations and versions. In this paper, we present comparison results for generally accepted video-quality metrics to determine which ones are most relevant to video codecs comparisons. For evaluation we used videos compressed by codecs of different standards at three bitrates, and subjective scores were collected for these videos. Evaluation dataset consists of 789 encoded streams and 320294 subjective scores. VMAF calculated for all Y, U, V color spaced showed the best correlation with subjective quality, and we also showed that the usage of smaller weighting coefficients for U and V components leads to a better correlation with subjective quality.},
+  bibtex_show = {true},
+  google_scholar_id = {LkGwnXOMwfcC},
+  html = {https://ceur-ws.org/Vol-3027/paper19.pdf},
+}
+
+@inproceedings{vatolinShot2021,
+  title = {{Shot boundary detection method based on a new extensive dataset and mixed features}},
+  author = {Gushchin, Alexander and Antsiferova, Anastasia and Vatolin, Dmitriy},
+  year = {2021},
+  booktitle = {31st International Conference on Computer Graphics and Vision (GraphiCon 2021)},
+  abstract = {Shot boundary detection in video is one of the key stages of video data processing. A new method for shot boundary detection based on several video features, such as color histograms and object boundaries, has been proposed. The developed algorithm was tested on the open BBC Planet Earth [1] and RAI [2] datasets, and the MSU CC datasets, based on videos used in the video codec comparison conducted at MSU, as well as videos from the IBM set, were also plotted. The total dataset for algorithm development and testing exceeded the known TRECVID datasets. Based on the test results, the proposed algorithm for scene change detection outperformed its counterparts with a final F-score of 0.9794.},
+  bibtex_show = {true},
+  google_scholar_id = {3fE2CSJIrl8C},
+  html = {https://arxiv.org/abs/2109.01057},
+}
+
+@article{vatolinBsqrate2020,
+  title = {{BSQ-rate: a new approach for video-codec performance comparison and drawbacks of current solutions}},
+  author = {Zvezdakova, Anastasia V and Kulikov, Dmitriy L and Zvezdakov, Sergey V and Vatolin, Dmitriy S},
+  year = {2020},
+  journal = {Programming and computer software},
+  abstract = {This paper is dedicated to the analysis of the existing approaches to video codecs comparisons. It includes the revealed drawbacks of popular comparison methods and proposes new techniques. The performed analysis of user-generated videos collection showed that two of the most popular open video collections from media.xiph.org which are widely used for video-codecs analysis and development do not cover real-life videos complexity distribution. A method for creating representative video sets covering all segments of user videos the spatial and temporal complexity is also proposed. One of the sections discusses video quality estimation algorithms used for video codec comparisons and shows the disadvantages of popular methods VMAF and NIQE. Also, the paper describes the drawbacks of the BD-rate – generally used method for video codecs final ranking during comparisons. A new ranking method …},
+  bibtex_show = {true},
+  google_scholar_id = {Tyk-4Ss8FVUC},
+  html = {https://link.springer.com/article/10.1134/S0361768820030111},
+}
+
+@article{ватолинBsqrate2020,
+  title = {{BSQ-rate: новый подход к сравнению производительности видеокодеков и недостатки существующих решений}},
+  author = {Звездакова, Анастасия Всеволодовна and Куликов, Дмитрий Леонидович and Звездаков, Сергей Васильевич and Ватолин, Дмитрий Сергеевич},
+  year = {2020},
+  journal = {Труды Института системного программирования РАН},
+  abstract = {В данной статье рассматриваются существующие подходы к сравнению видеокодеков, показываются недостатки некоторых популярных методов и предлагаются новые методики. С помощью анализа коллекции пользовательских видео показано, что один из популярных среди исследователей и разработчиков видеокодеков открытый набор видео не является репрезентативным с точки зрения соответствия реальным пользовательским видео. Также предложен метод создания репрезентативных наборов видео, покрывающих все сегменты пространственной и временной сложности пользовательских видеопоследовательностей. В разделе статьи, посвященном алгоритмам оценки качества видео, используемым в сравнениях видеокодеков, показаны недостатки популярных методов VMAF и NIQE. Также в статье показаны недостатки общепринятого метода финального ранжирования видеокодеков при проведении сравнений (BD-rate), и с учетом выявленных недостатков предложен алгоритм ранжирования, названный BSQ-rate. Данные результаты были получены в процессе исследований, проводимых в рамках ежегодных сравнений, организуемых видеогруппой лаборатории компьютерной графики и мультимедиа МГУ.},
+  bibtex_show = {true},
+  google_scholar_id = {IjCSPb-OGe4C},
+  html = {https://cyberleninka.ru/article/n/bsq-rate-novyy-podhod-k-sravneniyu-proizvoditelnosti-videokodekov-i-nedostatki-suschestvuyuschih-resheniy},
+}
+
+@inproceedings{vatolinHacking2019,
+  title = {{Hacking VMAF with video color and contrast distortion}},
+  author = {Zvezdakova, Anastasia and Zvezdakov, Sergey and Kulikov, Dmitriy and Vatolin, Dmitriy},
+  year = {2019},
+  booktitle = {29th International Conference on Computer Graphics and Vision, CEUR Workshop Proceedings},
+  abstract = {Video quality measurement takes an important role in many applications. Full-reference quality metrics which are usually used in video codecs comparisons are expected to reflect any changes in videos. In this article, we consider different color corrections of compressed videos which increase the values of full-reference metric VMAF and almost don't decrease other widely-used metric SSIM. The proposed video contrast enhancement approach shows the metric inapplicability in some cases for video codecs comparisons, as it may be used for cheating in the comparisons via tuning to improve this metric values.},
+  bibtex_show = {true},
+  google_scholar_id = {UeHWp8X0CEIC},
+  html = {https://arxiv.org/abs/1907.04807},
+}
+
+@inproceedings{vatolinBarriers2019,
+  title = {{Barriers towards no-reference metrics application to compressed video quality analysis: on the example of no-reference metric NIQE}},
+  author = {Zvezdakova, Anastasia and Kulikov, Dmitriy and Kondranin, Denis and Vatolin, Dmitriy},
+  year = {2019},
+  booktitle = {29th International Conference on Computer Graphics and Vision, CEUR Workshop Proceedings},
+  abstract = {This paper analyses the application of no-reference metric NIQE to the task of video-codec comparison. A number of issues in the metric behaviour on videos was detected and described. The metric has outlying scores on black and solid-coloured frames. The proposed averaging technique for metric quality scores helped to improve the results in some cases. Also, NIQE has low-quality scores for videos with detailed textures and higher scores for videos of lower bitrates due to the blurring of these textures after compression. Although NIQE showed natural results for many tested videos, it is not universal and currently can not be used for video-codec comparisons.},
+  bibtex_show = {true},
+  google_scholar_id = {zYLM7Y9cAGgC},
+  html = {https://arxiv.org/abs/1907.03842},
+}
+
+@article{antsiferovaMsu2019,
+  title = {{Msu video codecs comparison}},
+  author = {Vatolin, D and Kulikov, D and Erofeev, M and Antsiferova, A},
+  year = {2019},
+  bibtex_show = {true},
+  google_scholar_id = {7PzlFSSx8tAC},
+  html = {https://scholar.google.com/scholar?cluster=1124605565042631341&hl=en&oi=scholarr},
+}
+
+@article{antsiferovaVideo2019,
+  title = {{Video transcoding clouds comparison 2019}},
+  author = {Vatolin, Dmitriy and Kulikov, Dmitriy and Sklyarov, Egor and Zvezdakov, Sergey and Antsiferova, Anastasia},
+  year = {2019},
+  journal = {Moscow State University, Tech. Rep},
+  bibtex_show = {true},
+  google_scholar_id = {_kc_bZDykSQC},
+  html = {https://scholar.google.com/scholar?cluster=18204429762986604224&hl=en&oi=scholarr},
+}
+
+@article{анцифероваПрограммный2018,
+  title = {{Программный комплекс для определения степени дискомфорта зрителей при просмотре стереофильма по данным его технического качества}},
+  author = {Анциферова, Анастасия Всеволодовна},
+  year = {2018},
+  abstract = {Программа предназначена для оценки уровня дискомфорта, который испытают зрители при просмотре стереофильма. Функциональные возможности: прогнозирование дискомфорта среднестатистического зрителя для анализируемого стереофильма. Программа использует данные экспериментов, доступные при обращении по адресу на сайте http://compression. ru/video/vqmt3d/. Область применения: проведение оценки субъективного качества стереофильма киностудиями, кинотеатрами и 3D-телеканалами.},
+  bibtex_show = {true},
+  google_scholar_id = {MXK_kJrjxJIC},
+  html = {https://elibrary.ru/item.asp?id=39294130},
+}
+
+@inproceedings{vatolinInfluence2017,
+  title = {{The influence of 3D video artifacts on discomfort of 302 viewers}},
+  author = {Antsiferova, Anastasia and Vatolin, Dmitry},
+  year = {2017},
+  booktitle = {2017 International Conference on 3D Immersion (IC3D)},
+  abstract = {Today, numerous movies are produced in stereoscopic format. Despite the improvement in stereo technology, stereoscopic artifacts that cause headaches and other viewer discomfort continue to appear even in high-budget films. Existing automatic quality-control algorithms can detect distortions in stereoscopic images, but they fail to account for a viewer's subjective perception of those distortions. We propose a method of automatic subjective quality evaluation that uses technical parameters of stereoscopic scenes. It is based on subjective scores and brain-activity measurements using electroencephalography (EEG) to assess viewer discomfort. We conducted a series of experiments with active and passive stereo cinema technology. An audience of 302 participants watched 60 video sequences from stereoscopic movies containing artificially added geometric, color and temporal artifacts. Our analysis of the data …},
+  bibtex_show = {true},
+  google_scholar_id = {qjMakFHDy7sC},
+  html = {https://ieeexplore.ieee.org/abstract/document/8251897/},
+}
+
+@article{звездаковИсследование2017,
+  title = {{Исследование влияния геометрических, цветовых и временных искажений стереоскопического видео на дискомфорт зрителей}},
+  author = {Анциферова, Анастасия Всеволодовна and Ватолин, Дмитрий Сергеевич and Звездаков, Сергей Васильевич},
+  year = {2017},
+  journal = {Мир техники кино},
+  abstract = {Исследование влияния геометрических, цветовых и временных искажений 
+стереоскопического видео на дискомфорт зрителей - статья | ИСТИНА – 
+Интеллектуальная Система Тематического Исследования НАукометрических данных 
+ИСТИНА ИСТИНА Войти в систему Регистрация ФНКЦ РР Главная Поиск Статистика 
+О проекте Помощь Исследование влияния геометрических, цветовых и временных 
+искажений стереоскопического видео на дискомфорт зрителейстатья Статья 
+опубликована в журнале из перечня ВАК Авторы: Анциферова АВ, Ватолин ДС, 
+Звездаков СВЖурнал: Мир техники кино Том: 11 Номер: 2 Год издания: 2017 
+Издательство: ООО "ИПП "КУНА" Местоположение издательства: Москва Первая 
+страница: 8 Последняя страница: 12 Добавил в систему: Анциферова Анастасия 
+Всеволодовна Прикрепленные файлы № Имя Описание Имя файла …},
+  bibtex_show = {true},
+  google_scholar_id = {8k81kl-MbHgC},
+  html = {https://istina.fnkcrr.ru/publications/article/72460557/},
+}
+
+@article{vatolinTreating,
+  title = {{Treating Neural Image Compression via Modular Adversarial Optimization: From Global Distortion to Local Artifacts}},
+  author = {Kovalev, Egor and Abud, Khaled and Antsiferova, Anastasia and Vatolin, Dmitriy S},
+  abstract = {The rapid progress in neural image compression (NIC) led to the deployment of advanced codecs, such as JPEG AI, which significantly outperform conventional approaches. However, despite extensive research on the adversarial robustness of neural networks in various computer vision tasks, the vulnerability of NIC models to adversarial attacks remains underexplored. Moreover, the existing adversarial attacks on NIC are ineffective against modern codecs. In this paper, we introduce a novel adversarial attack targeting NIC models. Our approach is built upon two core stages: (1) optimization of global-local distortions, and (2) a selective masking strategy that enhances attack stealthiness. Experimental evaluations demonstrate that the proposed method outperforms prior attacks on both JPEG AI and other NIC models, achieving greater distortion on decoded images and lower perceptibility of adversarial images. We also provide a theoretical analysis and discuss the underlying reasons for the effectiveness of our attack, offering new insights into the security and robustness of learned image compression.},
+  bibtex_show = {true},
+  google_scholar_id = {maZDTaKrznsC},
+  html = {https://openreview.net/forum?id=qfeSpu5FBE},
+}
+
+@inproceedings{vatolinDiffusionsupplemented,
+  title = {{Diffusion-supplemented Implicit Layers: Operator Smoothing for better Implicit Solvers}},
+  author = {Gabitov, Dinislam and Rasheed, Bader and Antsiferova, Anastasia and Vatolin, Dmitriy S},
+  booktitle = {NeurIPS 2025 Workshop: Reliable ML from Unreliable Data},
+  abstract = {Implicit networks compute hidden states as fixed points. When the implicit map is poorly conditioned, solvers slow or fail. We propose Diffusion-Supplemented Implicit Layers (DSIL): insert a few denoising steps on the latent before each evaluation of the map. Under standard Lipschitz assumptions in a common metric, this preconditioning reduces the effective Lipschitz constant of the composed map, yielding stronger contraction; with a true proximal denoiser the contraction factor is explicitly tunable by the step size. On CIFAR-10 with a SODEF head, DSIL provides modest robustness gains without adversarial training. DSIL is architecture-agnostic and complements existing stabilization methods.},
+  bibtex_show = {true},
+  google_scholar_id = {iH-uZ7U-co4C},
+  html = {https://openreview.net/forum?id=9Gce7T7Nbz},
+}
+

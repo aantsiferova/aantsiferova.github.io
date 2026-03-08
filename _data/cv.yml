@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: Anastasia Antsiferova
-    - name: Seniority
+    - name: Title
       value: Senior Research Scientist, Group Leader, PhD
     - name: Languages
-      value: Russian (native), English (full professional proficiency), Deutch (beginner A1), Serbian (beginner A1)
+      value: Russian (native), English (full professional proficiency), German (beginner A1), Serbian (beginner A1)
 
 - title: Education
   type: time_table
@@ -15,38 +15,122 @@
       institution: Lomonosov Moscow State University, The faculty of Computational Mathematics and Cybernetics
       year: Oct 2018 - Sep 2022
       description:
-        - Thesis: Methods for designing and testing algorithms of video processing and encoding quality assessment
-        - GPA: 5.0/5.0
+        - "Thesis: Methods for designing and testing algorithms of video compression quality assessment"
+        - "GPA: 5.0/5.0"
     - title: Master of Computer Science
       institution: Lomonosov Moscow State University, The faculty of Computational Mathematics and Cybernetics
       year: Sep 2016 - Jun 2018
       description:
-        - Thesis: Forecasting of viewers discomfort degree when watching stereoscopic movie by its technical quality
-        - GPA: 5.0/5.0
+        - "GPA: 5.0/5.0"
     - title: Bachelor of Computer Science
       institution: Lomonosov Moscow State University, The faculty of Computational Mathematics and Cybernetics
       year: Sep 2012 - Jun 2016
       description:
-        - Thesis: Automatic method for fatigue estimation after watching 3D video
-        - GPA: 4.7/5.0
+        - "GPA: 4.7/5.0"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Scientist, Group Leader
-      institution: ISP RAS Research Center for Trusted Artificial Intelligence, Moscow, Russia
-      year: Oct 2021 - present
-      description:
-        - Developed and supervised research group in robust video quality metrics, certification methods, and empirical defenses for neural networks.
-        - Established collaboration with industry: projects include compressed video quality metrics development, deepfake & AI-generated image detection.
     - title: Senior Research Scientist, Group Leader
-      institution: MSU Institute for Artificial Intelligence, Moscow, Russia
+      institution: MSU Institute for Artificial Intelligence
       year: Jun 2022 - present
+      location: Moscow, Russia
       description:
         - Led a team of 24 students conducting cutting-edge research in image/video quality measurement and adversarial robustness of neural networks.
-        - Released two prominent benchmarks (#1 on Papers WithCode) on video quality measurement for video
+        - "Released two prominent benchmarks (#1 on PapersWithCode) on video quality measurement for video compression and metrics' adversarial robustness."
+        - Developed an attack on the VMAF quality metric, later integrated into Google's libaom (AV1) encoder, prompting Netflix to launch a new, more robust metric, VMAF NEG.
+    - title: Research Scientist, Group Leader
+      institution: ISP RAS Research Center for Trusted Artificial Intelligence
+      year: Oct 2021 - present
+      location: Moscow, Russia
+      description:
+        - Developed and supervised research group in robust video quality metrics, certification methods and empirical defenses for neural networks, image watermarking attacks and improving robustness of neural image compression including JPEG AI.
+        - "Established collaboration with industry: projects include compressed video quality metrics development, deepfake & AI-generated image detection."
+        - Collaborated with mathematicians for joint projects and papers in optimisation, federated learning, probability methods.
+    - title: CEO / Co-Founder
+      institution: NeuroTechSoft
+      year: Oct 2021 - Aug 2024
+      location: Moscow, Russia
+      description:
+        - Founded NeuroTechSoft, a startup applying advanced video super-resolution techniques to enhance video compression.
+        - Secured $68,000 in investments and led the R&D of a prototype product.
+    - title: Collaboration Manager / Video Compression Researcher
+      institution: MSU Video Codecs Comparisons
+      year: Sep 2018 - Jun 2022
+      location: Moscow, Russia
+      description:
+        - Oversaw communications and sales, and strengthened industry collaboration, doubling the number of participants (from 11 to 22), including leaders like Tencent, Huawei, Google, and ByteDance.
+        - Designed and maintained codecs comparison methodologies, analyzed results, and published 16 reports.
+    - title: Commercial Director / Co-Founder
+      institution: Effective Video Transcoding
+      year: Sep 2018 - Mar 2022
+      location: Moscow, Russia
+      description:
+        - Co-founded a startup focused on optimizing video encoders.
+        - Defined product concepts, conducted market analyses, raised two investment rounds, and secured initial sales for optimized H.264/AVC, H.265/HEVC, and other standards encoders.
+    - title: Research Scientist
+      institution: Lomonosov MSU Graphics & Media Lab
+      year: Sep 2014 - Jun 2022
+      location: Moscow, Russia
+      description:
+        - Published over 20 peer-reviewed research papers in top conferences (NeurIPS, ICML, ICLR, AAAI) on video quality assessment, adversarial robustness, 3D video quality, and video compression.
+        - Managed the lab's business group, raising $150k+ for academic research, founding two startups, and establishing key industry partnerships.
+        - Supervised research projects for master's and bachelor's students.
+
+- title: Scientific Projects
+  type: time_table
+  contents:
+    - title: Adversarially Robust Image/Video Quality Assessment
+      institution: Project Head
+      year: Apr 2022 - Dec 2024
+      description:
+        - Developed benchmarks of image/video quality metrics robustness to black-box and white-box adversarial attacks.
+        - Found vulnerabilities in 15 no-reference metrics and current full-reference SOTA method.
+        - Developing adversarial defence methods for image quality metrics, including certification, adversarial training and purification.
+    - title: Video Quality Metrics Benchmark for Compressed Video
+      institution: Project Head
+      year: Mar 2021 - Jun 2025
+      description:
+        - Developed the biggest benchmark of video-compression-related quality metrics.
+        - Received positive feedback from industry leaders (Huawei, Tencent, Yandex, Google YouTube Media Algorithms).
+        - Dataset published online with an average of 15 downloads per month by leading industry companies and research institutes.
+    - title: Recognition-Aware Video Quality Metrics (with Huawei)
+      institution: Consultant
+      year: Jan 2021 - Sep 2021
+      description:
+        - Prepared project proposal, consulted the team on research and development of a new metric that predicts object-detection accuracy for compressed videos.
+    - title: Video Conferencing Quality Metrics (with Huawei)
+      institution: Methodology Researcher and Communication Manager
+      year: Jan 2020 - Sep 2020
+      description:
+        - Developed the methodology of creating a new video dataset for video-conferencing metrics development. Led communications with Huawei teams.
+
+- title: Patents
+  type: list
+  contents:
+    - "[Certificate No.2022681151] Perceptual Full-Reference Pairwise Quality Metric (PFRPQ) / NeuroTechSoft LLC (A. Antsiferova, N. Karetin, D. Kulikov), 2022."
+    - "[Certificate No.2022682630] Deep Edge Restoration Quality Assessment (Deep ERQA) / NeuroTechSoft LLC (E. Lyapustin, A. Antsiferova), 2022."
+    - "[Certificate No.2018614727] Software for determining the degree of viewers' discomfort when watching a stereoscopic movie according to its technical quality / A. Antsiferova, 2018."
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Technical Skills
+      items:
+        - Python, PyTorch, Docker, Git, CI/CD, Linux
+    - title: Domain Expertise
+      items:
+        - "Video Compression (H.264/AVC, H.265/HEVC, LCEVC, AV1)"
+        - "Neural Image/Video Compression (JPEG AI)"
+        - "Video Quality Assessment (VMAF, PSNR, SSIM, etc.)"
+        - "Super-Resolution, Adversarial Robustness"
+    - title: Leadership & Soft Skills
+      items:
+        - "Research Team Leadership, Project Management"
+        - "Fundraising ($150k+), Product Strategy"
+        - "Industry Partnerships, Public Speaking"
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Traveling, Yoga, Hiking, Swimming, Film Photography, Vocal
+    - "<u>Hobbies:</u> Traveling, Yoga, Hiking, Swimming, Film Photography, Vocal"

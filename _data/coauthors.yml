@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"vatolin":
+  - firstname: ["Dmitriy", "D.", "D. S.", "Dmitriy Vatolin"]
+    url: 
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"guschin":
+  - firstname: ["Aleksandr", "A.", "Aleksandr Guschin"]
+    url: 
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"shumitskaya":
+  - firstname: ["Ekaterina", "E.", "Ekaterina Shumitskaya"]
+    url: 
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"abud":
+  - firstname: ["Khaled", "K.", "Khaled Abud"]
+    url: 
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"lavrushkin":
+  - firstname: ["Sergey", "S.", "Sergey Lavrushkin"]
+    url: 
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"gasnikov":
+  - firstname: ["Aleksandr", "A.", "Aleksandr Gasnikov"]
+    url: 
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"bychkov":
+  - firstname: ["Georgiy", "G.", "Georgiy Bychkov"]
+    url: 
+  
+"kulikov":
+  - firstname: ["Dmitriy", "D.", "Dmitriy Kulikov"]
+    url: 
