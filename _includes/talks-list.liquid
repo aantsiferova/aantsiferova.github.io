@@ -1,0 +1,75 @@
+{%- comment -%}
+  Talks List Component
+  
+  Renders talks and seminars from _data/talks.yml, grouped by year
+  Usage: {% include talks-list.liquid %}
+  
+  Features:
+  - Groups talks by year (descending)
+  - Shows title, event, location, type badge
+  - Responsive layout
+  - External links to event pages
+{%- endcomment -%}
+
+{%- if site.data.talks -%}
+
+<div class="talks-list">
+  {%- assign talks_by_year = "" | split: "" -%}
+  {%- assign current_year = "" -%}
+  
+  {%- comment -%} Sort talks by date descending {%- endcomment -%}
+  {%- assign sorted_talks = site.data.talks | sort: "date" | reverse -%}
+
+  {%- for talk in sorted_talks -%}
+    {%- assign talk_year = talk.date | date: "%Y" -%}
+    
+    {%- if talk_year != current_year -%}
+      {%- if current_year != "" -%}
+        </div>
+      {%- endif -%}
+      <h3 class="talks-year">{{ talk_year }}</h3>
+      <div class="talks-year-container">
+      {%- assign current_year = talk_year -%}
+    {%- endif -%}
+
+    <div class="talk-entry">
+      <div class="talk-header">
+        <h4 class="talk-title">{{ talk.title }}</h4>
+        <span class="talk-type-badge talk-type-{{ talk.type | slugify }}">
+          {%- case talk.type -%}
+            {%- when "keynote" -%}Keynote
+            {%- when "invited_talk" -%}Invited Talk
+            {%- when "talk" -%}Talk
+            {%- when "seminar" -%}Seminar
+            {%- when "workshop" -%}Workshop
+            {%- else -%}{{ talk.type }}
+          {%- endcase -%}
+        </span>
+      </div>
+
+      <div class="talk-meta">
+        <p class="talk-event">
+          <strong>Event:</strong> {{ talk.event }}
+        </p>
+        <p class="talk-location">
+          <strong>Location:</strong> {{ talk.location }}
+        </p>
+        <p class="talk-date">
+          <strong>Date:</strong> {{ talk.date | date: "%B %Y" }}
+        </p>
+      </div>
+
+      {%- if talk.url -%}
+        <a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer" class="talk-link">
+          View Event →
+        </a>
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
+
+  {%- if current_year != "" -%}
+    </div>
+  {%- endif -%}
+</div>
+
+{%- endif -%}

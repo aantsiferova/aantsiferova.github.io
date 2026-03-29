@@ -1,200 +1,304 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Anastasia Antsiferova",
+    "label": "Senior Research Scientist, R&D Leader",
+    "summary": "AI Research Scientist with 10+ years of experience in Deep Learning and Computer Vision. Expertise in developing and benchmarking robust generative models and multimodal systems. Top-3 young scientific leaders in AI (Russia, 2025).",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Moscow",
+      "countryCode": "RU"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "Anastasia Antsiferova",
+        "url": "https://www.linkedin.com/in/your_profile"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Anastasia Antsiferova",
+        "url": "https://scholar.google.com/citations?user=your_id"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Sber AI, AI-Generated Building Construction",
+      "position": "R&D Leader, Executive Director of Data Science",
+      "url": "",
+      "startDate": "2026-02",
+      "endDate": "present",
+      "summary": "Leading research and development in Generative AI for architecture.",
+      "highlights": [
+        "Developing multimodal models for automated floor plan generation",
+        "Interior layout synthesis and 3D massing generation"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Lomonosov MSU Institute for Artificial Intelligence",
+      "position": "Senior Research Scientist, Group Leader",
+      "url": "",
+      "startDate": "2022-06",
+      "endDate": "present",
+      "summary": "Leading a team of 25 scientists in robustness and quality of AI-based image/video processing.",
+      "highlights": [
+        "Developed an attack on the VMAF quality metric, integrated into Google's libaom (AV1)",
+        "Released two prominent benchmarks (#1 on Papers With Code) on video quality measurement"
+      ]
+    },
+    {
+      "name": "ISP RAS Research Center for Trusted Artificial Intelligence",
+      "position": "Research Scientist, Group Leader",
+      "url": "",
+      "startDate": "2021-10",
+      "endDate": "present",
+      "summary": "Established industry collaboration for deepfake and AI-generated image detection.",
+      "highlights": [
+        "Collaborated with mathematicians for projects in optimization and federated learning"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Lomonosov Moscow State University",
+      "area": "Computational Mathematics and Cybernetics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2018-10",
+      "endDate": "2022-09",
+      "score": "5.0/5.0",
+      "summary": "Thesis: Methods for designing and testing algorithms of video processing and encoding quality assessment"
+    },
+    {
+      "institution": "Lomonosov Moscow State University",
+      "area": "Computational Mathematics and Cybernetics",
+      "studyType": "Master",
+      "startDate": "2016-09",
+      "endDate": "2018-06",
+      "score": "5.0/5.0"
+    },
+    {
+      "institution": "Lomonosov Moscow State University",
+      "area": "Computational Mathematics and Cybernetics",
+      "studyType": "Bachelor",
+      "startDate": "2012-09",
+      "endDate": "2016-06",
+      "score": "4.7/5.0"
     }
   ],
-  "awards": [
+"awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Winner of the national award for top-3 young scientists in AI in Russia 'Leaders of AI'",
+      "date": "2025-11-21",
+      "awarder": "Allience for Artificial Intelligence --- leading association of major Russian technology and industrial companies (Sber (Sberbank), Yandex, VK (formerly Mail.ru Group), MTS, Gazprom Neft, and the Russian Direct Investment Fund (RDIF) etc.)",
+      "summary": "Awarded $13,000."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Lomonosov Moscow State University's stipend for talented young research scientists",
+      "date": "2025",
+      "awarder": "MSU",
+      "summary": "Stipend for talented postdocs and young research scientists."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Finalist of the national award for young scientists 'Leaders of AI'",
+      "date": "2024",
+      "awarder": "Allience for Artificial Intelligence --- leading association of major Russian technology and industrial companies (Sber (Sberbank), Yandex, VK (formerly Mail.ru Group), MTS, Gazprom Neft, and the Russian Direct Investment Fund (RDIF) etc.)"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Best Presentation Award",
+      "date": "2021",
+      "awarder": "Artificial Intelligence and Cloud Computing Conference"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "Winner of the competition among young scientists in AI, cognitive systems, and brain",
+      "date": "2021",
+      "awarder": "Lomonosov MSU and Intellect Foundation",
+      "summary": "Awarded $30,000."
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Winner of the competition 'Start-Artificial Intelligence'",
+      "date": "2021",
+      "awarder": "Foundation for Assistance to Small Innovative Enterprises in Science and Technology (FASIE)",
+      "summary": "Awarded $65,000."
+    },
+    {
+      "title": "Best IT Project 'Eureka!'",
+      "date": "2017",
+      "awarder": "Innopraktika Foundation",
+      "summary": "Awarded $33,000."
+    },
+    {
+      "title": "Winner of 'Umnik' competition",
+      "date": "2014",
+      "awarder": "Foundation for Assistance to Small Innovative Enterprises in Science and Technology (FASIE)",
+      "summary": "Conducting research on perceptual 3D video quality metric ($8,000)."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "From Pixels to Reality: Physical-Digital Patch Attacks on Real-World Camera",
+      "publisher": "PerCom Demo",
+      "releaseDate": "2026",
+      "summary": "V. Leonenkova, E. Shumitskaya, D. Vatolin, A. Antsiferova."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "WIBE: Watermarks for generated Images Benchmarking & Evaluation",
+      "publisher": "ASE Demo",
+      "releaseDate": "2025",
+      "summary": "A. Yakushev, ..., A. Antsiferova, K. Lukianov, Y. Markin."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "LEHA-CVQAD: Dataset To Enable Generalized Video Quality Assessment of Compression Artifacts",
+      "publisher": "ACM Multimedia Datasets",
+      "releaseDate": "2025",
+      "summary": "A. Gushchin, M. Smirnov, D. Vatolin, A. Antsiferova."
+    },
+    {
+      "name": "Robustness as Architecture: Designing IQA Models to Withstand Adversarial Perturbations",
+      "publisher": "ACM Multimedia Brave New Ideas",
+      "releaseDate": "2025",
+      "summary": "I. Meleshin, A. Chistyakova, A. Antsiferova, D. Vatolin."
+    },
+    {
+      "name": "Stochastic BIQA: Median randomized smoothing for certified blind image quality assessment",
+      "publisher": "Computer Vision and Image Understanding",
+      "releaseDate": "2025",
+      "summary": "E. Shumitskaya, M. Pautov, D. Vatolin, A. Antsiferova."
+    },
+    {
+      "name": "Guardians of Image Quality: Benchmarking Defenses Against Adversarial Attacks on Image Quality Metrics",
+      "publisher": "ICML",
+      "releaseDate": "2025",
+      "summary": "A. Gushchin, K. Abud, G. Bychkov, E. Shumitskaya, A. Chistyakova, S. Lavrushkin, B. Rasheed, K. Malyshev, D. Vatolin, A. Antsiferova."
+    },
+    {
+      "name": "Stable VMAF: investigating VMAF's vulnerabilities to adversarial attacks",
+      "publisher": "Multimedia Systems",
+      "releaseDate": "2025",
+      "summary": "S. Lavrushkin, M. Khrebtov, A. Antsiferova, G. Bychkov, A. Soloviev, D. Vatolin."
+    },
+    {
+      "name": "IOI: Invisible One-Iteration Adversarial Attack on No-Reference Image- and Video-Quality Metrics",
+      "publisher": "ICML",
+      "releaseDate": "2024",
+      "summary": "E. Shumitskaya, A. Antsiferova, D. Vatolin."
+    },
+    {
+      "name": "Comparing the robustness of modern no-reference image- and video-quality metrics to adversarial attacks",
+      "publisher": "AAAI",
+      "releaseDate": "2024",
+      "summary": "A. Antsiferova et al."
+    },
+    {
+      "name": "Fast Adversarial CNN-based Perturbation Attack of No-Reference Image Quality Metrics",
+      "publisher": "Tiny papers @ ICLR",
+      "releaseDate": "2023",
+      "summary": "E Shumitskaya, A. Antsiferova, D. Vatolin."
+    },
+    {
+      "name": "Video compression dataset and benchmark of learning-based video-quality metrics",
+      "publisher": "NeurIPS",
+      "releaseDate": "2022",
+      "summary": "A. Antsiferova et al."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Research",
+      "level": "Expert",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "ML/DL in image/video processing",
+        "Quality measurement",
+        "Research supervision",
+        "Problem formulation",
+        "Experimental design",
+        "Benchmarking"
+      ]
+    },
+    {
+      "name": "Technical",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "Docker",
+        "Git",
+        "CI/CD",
+        "Linux"
       ]
     }
   ],
-  "languages": [
+  "certificates": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "[Certificate No.2022681151] Perceptual Full-Reference Pairwise Quality Metric (PFRPQ)",
+      "publisher": "NeuroTechSoft LLC (A. Antsiferova, N. Karetin, D. Kulikov)",
+      "releaseDate": "2022",
+      "summary": "Official certificate of registration for a computer program focusing on perceptual quality assessment."
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "[Certificate No.2022682630] Deep Edge Restoration Quality Assessment (Deep ERQA)",
+      "publisher": "NeuroTechSoft LLC (E. Lyapustin, A. Antsiferova)",
+      "releaseDate": "2022",
+      "summary": "Official certificate of registration for a computer program specializing in edge restoration evaluation."
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "[Certificate No.2018614727] Software for determining the degree of viewers' discomfort when watching a stereoscopic movie according to its technical quality",
+      "publisher": "A. Antsiferova",
+      "releaseDate": "2018",
+      "summary": "Official certificate of registration for software analyzing technical quality impacts on 3D viewer comfort."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "AI-generated building construction",
+      "summary": "Leading the development of multimodal models for automated architectural design, including floor plan generation, interior layout synthesis, and 3D massing. The project focuses on integrating AI with BIM (Building Information Modeling) to optimize real-time design and documentation analysis.",
+      "highlights": [
+        "Developing generative models for automated floor plans and 3D building massing",
+        "Mentoring researchers on problem formulation and experiment design",
+        "Coordinating cross-functional teams to deliver production-ready R&D outcomes"
+      ],
+      "startDate": "2026-02-01",
+      "endDate": "present"
+    },
+    {
+      "name": "AI-generated image detection",
+      "summary": "Researching deepfake and AI-generated image detection methods. Developed a methodology for testing, collected a large-scale dataset with crowdsourced markup, and created a benchmark for evaluating the robustness of detection methods against adversarial attacks.",
+      "highlights": [
+        "Head of the most popular CVPR NTIRE challenge 2026",
+        "Benchmarking robustness of state-of-the-art deepfake detection methods",
+        "Developing new robust detection algorithms"
+      ],
+      "startDate": "2025-04-01",
+      "endDate": "present",
+      "url": "https://videoprocessing.ai/benchmarks/deepfake-detection.html"
+    },
+    {
+      "name": "Adversarially robust image/video quality assessment",
+      "summary": "Created benchmarks for evaluating the robustness of image and video quality metrics against black-box and white-box adversarial attacks. Identified vulnerabilities in 15 no-reference metrics and established a new standard for metric certification.",
+      "highlights": [
+        "Found vulnerabilities in current SOTA full-reference methods",
+        "Developing defense methods including adversarial training and purification",
+        "Published comprehensive robustness benchmarks for the research community"
+      ],
+      "startDate": "2022-04-01",
+      "endDate": "2024-12-01",
+      "url": "https://videoprocessing.ai/benchmarks/metrics-robustness.html"
+    },
+    {
+      "name": "Video quality metrics benchmark for compressed video",
+      "summary": "Developed the industry's largest benchmark for video-compression-related quality metrics. The dataset includes 2,500+ compressed streams and 780,000+ subjective responses, used by leaders like Google (YouTube), Huawei, and Tencent.",
+      "highlights": [
+        "Released two prominent benchmarks ranked #1 on Papers With Code",
+        "Averages 15 downloads per month from leading industry and research institutes",
+        "Standardized methodology for objective metric evaluation in video encoding"
+      ],
+      "startDate": "2021-03-01",
+      "endDate": "2025-06-01",
+      "url": "https://videoprocessing.ai/benchmarks/video-quality-metrics.html"
+    },
+    {
+      "name": "Recognition-aware video quality metrics (with Huawei)",
+      "summary": "Consulted on the research and development of a novel metric designed to predict object-detection accuracy for compressed videos, shifting the focus from human perception to machine-task performance.",
+      "startDate": "2021-01-01",
+      "endDate": "2021-09-01"
     }
   ]
 }

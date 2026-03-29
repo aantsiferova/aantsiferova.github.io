@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Research Scientist, Group Leader, PhD at ISP RAS and MSU Institute for Artificial Intelligence.
+subtitle: Research group leader | Video quality, Video compression, Trusted AI, GenAI | National award “Leaders of AI-2025”
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false 
+  image: prof_pic_1.jpg
+  image_circular: true 
   more_info: >
-    <p>MSU Institute for Artificial Intelligence</p>
-    <p>ISP RAS Research Center for Trusted AI</p>
-    <p>Moscow, Russia</p>
+    <p>Sber AI</p>
+    <p>MSU Institute for AI</p>
+    <p>Trusted AI Research Center Russian Academy of Sciences</p>
 
 selected_papers: true
 social: true
@@ -22,11 +22,13 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---
 
-Dr. Anastasia Antsiferova is a Senior Research Scientist and Group Leader specializing in trusted AI, video quality metrics, and adversarial robustness. She was recognized as a finalist of "Leaders of AI 2024" in Russia. She has developed and supervised a research group in robust video quality metrics, certification methods, and empirical defenses for neural networks.
+12 years in Video Compression, Computer Vision, and Adversarial Robustness. 
 
-Her work includes developing an attack on the VMAF quality metric, which was later integrated into Google's libaom (AV1) encoder, prompting Netflix to launch a new, more robust metric, VMAF NEG. She also founded two startups, NeuroTechSoft and Effective Video Transcoding. Dr. Antsiferova has published over 20 peer-reviewed research papers in top conferences, including NeurIPS, ICML, ICLR, and AAAI.
+Experienced in leading research teams, developing state-of-the-art benchmarks, academia-industry collaboration, and startups. Published 10+ papers at top-tier conferences (NeurIPS, ICML, ICLR, AAAI).
+
+Expertise in applying ML/AI techniques to real-world challenges, with contributions adopted by industry leaders such as Google and NETFLIX.

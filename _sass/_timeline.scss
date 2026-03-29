@@ -1,0 +1,553 @@
+// Timeline and Experience Styling
+// Responsive timeline component with logo support, responsive layouts
+
+// ===== Experience Timeline Container =====
+.experience-timeline {
+  margin: 3rem 0;
+  padding: 0;
+
+  .timeline-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--global-text-color);
+    letter-spacing: -0.5px;
+  }
+}
+
+// ===== Timeline Container & Entries =====
+.timeline-container {
+  position: relative;
+  padding: 1rem 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--global-divider-color, #e0e0e0);
+  }
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 2.5rem;
+  margin-left: 60px;
+  padding: 0;
+
+  &:last-child .timeline-connector {
+    display: none;
+  }
+}
+
+// ===== Timeline Logo =====
+.timeline-logo-wrapper {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid var(--global-divider-color, #e0e0e0);
+  z-index: 10;
+}
+
+.timeline-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.timeline-logo-placeholder {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--global-theme-color, #0a7d91);
+  background: linear-gradient(135deg, var(--global-theme-color, #0a7d91) 0%, 
+                                      lighten(var(--global-theme-color, #0a7d91), 10%) 100%);
+  color: white;
+  border-radius: 50%;
+}
+
+// ===== Timeline Content =====
+.timeline-content {
+  background: var(--global-bg-color, #ffffff);
+  border: 1px solid var(--global-divider-color, #e0e0e0);
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color, #0a7d91);
+    box-shadow: 0 2px 8px rgba(10, 125, 145, 0.1);
+  }
+}
+
+.timeline-meta {
+  margin-bottom: 1rem;
+
+  .timeline-title-entry {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    color: var(--global-text-color);
+    word-break: break-word;
+  }
+
+  .timeline-institution {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0.25rem 0;
+    color: var(--global-theme-color, #0a7d91);
+  }
+
+  .timeline-location {
+    font-size: 0.85rem;
+    margin: 0.15rem 0;
+    color: var(--global-text-color, #595959);
+  }
+
+  .timeline-date {
+    font-size: 0.85rem;
+    margin: 0.25rem 0 0 0;
+    color: var(--global-text-color, #999999);
+    font-style: italic;
+  }
+}
+
+.timeline-description {
+  margin: 1rem 0 0 0;
+  padding-left: 1.5rem;
+  list-style: disc;
+  color: var(--global-text-color, #595959);
+
+  li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    list-style-position: outside;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ===== Timeline Connector =====
+.timeline-connector {
+  position: absolute;
+  left: -41px;
+  top: 40px;
+  width: 2px;
+  height: 50px;
+  background: linear-gradient(to bottom, 
+    var(--global-divider-color, #e0e0e0) 0%, 
+    transparent 100%);
+  z-index: 1;
+}
+
+// ===== Timeline Footer =====
+.timeline-footer {
+  text-align: center;
+  margin-top: 2.5rem;
+
+  .timeline-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--global-theme-color, #0a7d91);
+    text-decoration: none;
+    border-bottom: 1px solid var(--global-theme-color, #0a7d91);
+    transition: all 0.2s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// ===== Teaching List Styling =====
+.teaching-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.teaching-card {
+  border: 1px solid var(--global-divider-color, #e0e0e0);
+  border-radius: 6px;
+  padding: 1.5rem;
+  background: var(--global-bg-color, #ffffff);
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color, #0a7d91);
+    box-shadow: 0 2px 8px rgba(10, 125, 145, 0.1);
+  }
+}
+
+.teaching-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+
+  .teaching-course-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--global-text-color);
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .teaching-code {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--global-text-color, #999999);
+    background: var(--global-divider-color, #f5f5f5);
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+}
+
+.teaching-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+
+  .meta-item {
+    color: var(--global-text-color, #595959);
+
+    strong {
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+  }
+}
+
+.teaching-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--global-text-color, #595959);
+  margin-bottom: 1rem;
+}
+
+.teaching-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-theme-color, #0a7d91);
+  text-decoration: none;
+  border-bottom: 1px solid var(--global-theme-color, #0a7d91);
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// ===== Talks List Styling =====
+.talks-list {
+  margin: 2rem 0;
+}
+
+.talks-year {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  color: var(--global-text-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--global-divider-color, #e0e0e0);
+  text-align: center;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.talks-year-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.talk-entry {
+  border: 1px solid var(--global-divider-color, #e0e0e0);
+  border-left: 4px solid var(--global-theme-color, #0a7d91);
+  border-radius: 4px;
+  padding: 1.2rem;
+  background: var(--global-bg-color, #ffffff);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(10, 125, 145, 0.1);
+  }
+}
+
+.talk-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+
+  .talk-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--global-text-color);
+    flex: 1;
+    min-width: 200px;
+  }
+}
+
+.talk-type-badge {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+
+  // Color variants for different talk types
+  &.talk-type-keynote {
+    background: rgba(220, 20, 60, 0.1);
+    color: #dc143c;
+  }
+
+  &.talk-type-invited-talk {
+    background: rgba(10, 125, 145, 0.1);
+    color: var(--global-theme-color, #0a7d91);
+  }
+
+  &.talk-type-talk {
+    background: rgba(100, 149, 237, 0.1);
+    color: #6495ed;
+  }
+
+  &.talk-type-seminar {
+    background: rgba(70, 130, 180, 0.1);
+    color: #4682b4;
+  }
+
+  &.talk-type-workshop {
+    background: rgba(218, 112, 214, 0.1);
+    color: #da70d6;
+  }
+}
+
+.talk-meta {
+  font-size: 0.9rem;
+  color: var(--global-text-color, #595959);
+  margin-bottom: 0.8rem;
+
+  p {
+    margin: 0.4rem 0;
+
+    strong {
+      font-weight: 600;
+      color: var(--global-text-color);
+    }
+  }
+}
+
+.talk-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-theme-color, #0a7d91);
+  text-decoration: none;
+  border-bottom: 1px solid var(--global-theme-color, #0a7d91);
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// ===== Responsive Design =====
+
+// Tablet and up
+@media (min-width: 768px) {
+  .teaching-list {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .talks-year-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+// Mobile adjustments
+@media (max-width: 730px) {
+  .timeline-container {
+    &::before {
+      left: 11px;
+    }
+  }
+
+  .timeline-entry {
+    margin-left: 50px;
+  }
+
+  .timeline-logo-wrapper {
+    left: -38px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .timeline-logo {
+    width: 22px;
+    height: 22px;
+  }
+
+  .timeline-connector {
+    left: -33px;
+  }
+
+  .timeline-content {
+    padding: 1rem;
+
+    .timeline-title-entry {
+      font-size: 1rem;
+    }
+
+    .timeline-meta {
+      .timeline-institution {
+        font-size: 0.9rem;
+      }
+
+      .timeline-date {
+        font-size: 0.8rem;
+      }
+    }
+
+    .timeline-description {
+      font-size: 0.9rem;
+
+      li {
+        margin-bottom: 0.4rem;
+      }
+    }
+  }
+
+  .talk-header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .talk-title {
+      min-width: 100%;
+    }
+
+    .talk-type-badge {
+      align-self: flex-start;
+    }
+  }
+
+  .teaching-meta {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
+// Extra small screens
+@media (max-width: 480px) {
+  .experience-timeline {
+    margin: 2rem 0;
+
+    .timeline-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .timeline-entry {
+    margin-left: 45px;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-logo-wrapper {
+    left: -33px;
+    width: 28px;
+    height: 28px;
+    border-width: 1px;
+  }
+
+  .timeline-logo {
+    width: 18px;
+    height: 18px;
+  }
+
+  .timeline-logo-placeholder {
+    font-size: 0.65rem;
+  }
+
+  .timeline-container {
+    &::before {
+      left: 8px;
+    }
+  }
+
+  .timeline-connector {
+    left: -28px;
+  }
+
+  .timeline-content {
+    padding: 0.8rem;
+
+    .timeline-title-entry {
+      font-size: 0.95rem;
+    }
+
+    .timeline-description {
+      font-size: 0.85rem;
+      padding-left: 1rem;
+
+      li {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+
+  .talks-year {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.8rem 0;
+  }
+
+  .teaching-card,
+  .talk-entry {
+    padding: 1rem;
+  }
+
+  .talk-header {
+    gap: 0.5rem;
+
+    .talk-title {
+      font-size: 0.95rem;
+    }
+
+    .talk-type-badge {
+      font-size: 0.65rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+}

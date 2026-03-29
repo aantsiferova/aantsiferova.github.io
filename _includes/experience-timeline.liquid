@@ -1,0 +1,69 @@
+{%- comment -%}
+  Experience Timeline Component
+  
+  Renders work experience section extracted from cv.yml data.
+  Usage: {% include experience-timeline.liquid %}
+  
+  Features:
+  - Chronological order (most recent first)
+  - Company logo support (optional)
+  - Position title, organization, date range
+  - Brief description bullets
+  - Responsive layout
+{%- endcomment -%}
+
+{%- assign cv_data = site.data.cv -%}
+{%- assign experience_section = cv_data | where: "title", "Experience" | first -%}
+
+{%- if experience_section and experience_section.contents -%}
+
+<div class="experience-timeline">
+  <h2 class="timeline-title">Experience</h2>
+  
+  <div class="timeline-container">
+    {%- for entry in experience_section.contents -%}
+      <div class="timeline-entry">
+        
+        {%- comment -%} Logo section {%- endcomment -%}
+        <div class="timeline-logo-wrapper">
+          {%- if entry.logo_path -%}
+            <img src="{{ entry.logo_path }}" alt="{{ entry.institution }}" class="timeline-logo" />
+          {%- else -%}
+            <div class="timeline-logo-placeholder">
+              {{ entry.institution | split: " " | map: "first" | join: "" | slice: 0, 2 | upcase }}
+            </div>
+          {%- endif -%}
+        </div>
+
+        {%- comment -%} Content section {%- endcomment -%}
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <h3 class="timeline-title-entry">{{ entry.title }}</h3>
+            <p class="timeline-institution">{{ entry.institution }}</p>
+            {%- if entry.location -%}
+              <p class="timeline-location">{{ entry.location }}</p>
+            {%- endif -%}
+            <p class="timeline-date">{{ entry.year }}</p>
+          </div>
+
+          {%- if entry.description -%}
+            <ul class="timeline-description">
+              {%- for desc in entry.description -%}
+                <li>{{ desc }}</li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </div>
+
+        {%- comment -%} Timeline connector {%- endcomment -%}
+        <div class="timeline-connector"></div>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <div class="timeline-footer">
+    <a href="/cv/" class="timeline-link">View full CV →</a>
+  </div>
+</div>
+
+{%- endif -%}

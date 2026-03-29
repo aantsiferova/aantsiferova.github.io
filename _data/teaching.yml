@@ -1,0 +1,63 @@
+# Teaching and Supervised Courses
+# Format: date_range, course_name, course_code (optional), institution, level, role, students, description, url (optional)
+
+- date_range: "2024-present"
+  course_name: "Advanced Topics in Adversarial Robustness"
+  course_code: "CSC599"
+  institution: "MSU Institute for Artificial Intelligence"
+  level: "Graduate"
+  role: "Instructor"
+  students: 18
+  description: "Seminar course on adversarial robustness of neural networks, metrics certification, and defense mechanisms."
+  url:
+
+- date_range: "2023-2024"
+  course_name: "Video Quality Assessment in Deep Learning"
+  course_code: "CSC498"
+  institution: "Lomonosov Moscow State University"
+  level: "Graduate"
+  role: "Lead Instructor"
+  students: 25
+  description: "Explores video quality metrics, deep learning-based assessment methods, benchmark creation, and applications in compression."
+  url:
+
+- date_range: "2022-2024"
+  course_name: "Research Methodology and Scientific Communication"
+  course_code:
+  institution: "MSU Graphics & Media Lab"
+  level: "Graduate Seminar"
+  role: "Instructor"
+  students: 12
+  description: "Mentoring and guidance on research project planning, paper writing, and presentation skills for graduate students."
+  url:
+
+- date_range: "2021-2023"
+  course_name: "Neural Network Robustness: Theory and Practice"
+  course_code:
+  institution: "ISP RAS Research Center"
+  level: "Seminar"
+  role: "Co-Organizer"
+  students: 15
+  description: "Journal club and seminar series discussing recent advances in adversarial robustness, certified defenses, and empirical robustness evaluation."
+  url:
+
+- date_range: "2020-2022"
+  course_name: "Internship Supervision: Video Compression & Quality"
+  course_code:
+  institution: "Lomonosov Moscow State University"
+  level: "Undergraduate"
+  role: "Research Advisor"
+  students: "8 per year"
+  description: "Supervised student research projects on video compression techniques, quality metrics, and image processing."
+  url:
+
+# Template for adding new courses:
+# - date_range: "YYYY-YYYY"
+#   course_name: "Course Title"
+#   course_code: "CSCXXX"
+#   institution: "University/Institute Name"
+#   level: "Undergraduate/Graduate/Seminar"
+#   role: "Instructor/Co-Instructor/Advisor"
+#   students: XX
+#   description: "Brief description of course content and focus areas."
+#   url: "https://link-to-course-syllabus-or-materials"

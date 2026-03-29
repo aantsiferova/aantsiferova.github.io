@@ -1,0 +1,52 @@
+# Talks, Seminars, and Conference Presentations
+# Format: date, title, event, location, url (optional), type badge (keynote, talk, workshop, seminar)
+
+- date: 2024-11
+  title: "Adversarial Robustness of Video Quality Metrics"
+  event: "NeurIPS 2024 Workshop on Trustworthy AI"
+  location: "Vancouver, Canada"
+  url: 
+  type: "talk"
+
+- date: 2024-09
+  title: "Video Compression Quality Assessment: From Metrics to Benchmarks"
+  event: "Joint Workshop on Video Coding and Compression"
+  location: "Moscow, Russia"
+  url:
+  type: "invited_talk"
+
+- date: 2024-06
+  title: "Certified Defenses for Image Quality Metrics"
+  event: "ICML 2024 Workshop on Adversarial Robustness"
+  location: "Vienna, Austria"
+  url:
+  type: "talk"
+
+- date: 2024-03
+  title: "Research and Industry Collaboration in Video Compression"
+  event: "Seminar at Huawei Research Lab"
+  location: "Moscow, Russia"
+  url:
+  type: "seminar"
+
+- date: 2023-12
+  title: "Deep Learning for Video Quality Assessment"
+  event: "ICLR 2023 Workshop on Real-World Applications"
+  location: "Kigali, Rwanda"
+  url:
+  type: "talk"
+
+- date: 2023-09
+  title: "Building Robust Metrics: Lessons from Adversarial Attacks"
+  event: "AAAI 2023 Spring Symposium on AI for Social Good"
+  location: "Stanford, USA"
+  url:
+  type: "invited_talk"
+
+# Template for adding new talks:
+# - date: YYYY-MM
+#   title: "Talk Title"
+#   event: "Conference/Event Name"
+#   location: "City, Country"
+#   url: "https://link-to-talk-or-event"
+#   type: "talk"  # options: keynote, invited_talk, talk, seminar, workshop

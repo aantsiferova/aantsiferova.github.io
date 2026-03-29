@@ -1,0 +1,56 @@
+{%- comment -%}
+  Teaching List Component
+  
+  Renders teaching and courses from _data/teaching.yml
+  Usage: {% include teaching-list.liquid %}
+  
+  Features:
+  - Displays course information cards
+  - Shows institution, level, role, student count
+  - Responsive grid layout
+{%- endcomment -%}
+
+{%- if site.data.teaching -%}
+
+<div class="teaching-list">
+  {%- for course in site.data.teaching -%}
+    <div class="teaching-card">
+      <div class="teaching-header">
+        <h3 class="teaching-course-name">{{ course.course_name }}</h3>
+        {%- if course.course_code -%}
+          <span class="teaching-code">{{ course.course_code }}</span>
+        {%- endif -%}
+      </div>
+
+      <div class="teaching-meta">
+        <div class="meta-item">
+          <strong>Institution:</strong> {{ course.institution }}
+        </div>
+        <div class="meta-item">
+          <strong>Level:</strong> {{ course.level }}
+        </div>
+        <div class="meta-item">
+          <strong>Role:</strong> {{ course.role }}
+        </div>
+        <div class="meta-item">
+          <strong>Students:</strong> {{ course.students }}
+        </div>
+        <div class="meta-item">
+          <strong>Dates:</strong> {{ course.date_range }}
+        </div>
+      </div>
+
+      {%- if course.description -%}
+        <p class="teaching-description">{{ course.description }}</p>
+      {%- endif -%}
+
+      {%- if course.url -%}
+        <a href="{{ course.url }}" target="_blank" rel="noopener noreferrer" class="teaching-link">
+          View Course Materials →
+        </a>
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
+</div>
+
+{%- endif -%}
