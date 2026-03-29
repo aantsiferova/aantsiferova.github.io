@@ -23,56 +23,32 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Open-source projects and research code.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
-          description: "Academic curriculum vitae.",
+          description: "Anastasia Antsiferova&#39;s CV",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "Research group members",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-was-honored-to-visit-the-msu-bit-engineering-department-in-shenzhen-china-as-an-invited-expert-to-deliver-a-research-talk-and-establish-a-framework-for-future-collaboration",
+          title: 'I was honored to visit the MSU-BIT Engineering Department in Shenzhen, China as...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-about-leha-cvqad-dataset-for-video-quality-measurement-was-presented-by-my-phd-student-aleksandr-guschin-at-acm-international-conference-on-multimedia-acm-mm-2025-in-dublin-ireland",
+          title: 'Our paper about LEHA-CVQAD dataset for video quality measurement was presented by my...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-presented-our-paper-about-wibe-framework-for-image-watermarking-robustness-evaluation-as-a-demo-at-ieee-acm-international-conference-on-automated-software-engineering-ase-2025-in-seoul-south-korea",
+          title: 'Presented our paper about WIBE framework for image watermarking robustness evaluation as a...',
+          description: "",
+          section: "News",},{id: "news-i-was-honored-to-receive-the-national-leaders-of-ai-award-for-top-3-young-scientific-leaders-in-russia-this-award-is-given-to-young-researchers-under-35-for-breakthrough-ai-solutions-specifically-focusing-on-those-publishing-at-top-tier-conferences-more-about-the-award-and-the-other-winners-here-https-ai-awards-ru-award-scientist",
+          title: 'I was honored to receive the National “Leaders of AI” Award for top-3...',
+          description: "",
+          section: "News",},{id: "news-presented-our-paper-from-pixels-to-reality-physical-digital-patch-attacks-on-real-world-camera-as-a-demo-at-ieee-international-conference-on-pervasive-computing-and-communications-percom-2026-in-pisa-italy",
+          title: 'Presented our paper “From Pixels to Reality: Physical-Digital Patch Attacks on Real-World Camera”...',
           description: "",
           section: "News",},{id: "projects-adversarially-robust-image-video-quality-assessment",
           title: 'Adversarially Robust Image/Video Quality Assessment',
@@ -95,13 +71,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/video_quality_benchmark/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6B%65%65%70.%74%61%6C%6B%69%6E%67%39%34@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -121,13 +90,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=lJ-GGU8AAAAJ", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-rss',
