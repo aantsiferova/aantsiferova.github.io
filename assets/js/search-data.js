@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Anastasia Antsiferova&#39;s CV",
