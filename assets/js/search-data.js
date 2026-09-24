@@ -35,7 +35,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-was-honored-to-visit-the-msu-bit-engineering-department-in-shenzhen-china-as-an-invited-expert-to-deliver-a-research-talk-and-establish-a-framework-for-future-collaboration",
+            },},{id: "news-presented-our-paper-video-compression-dataset-and-benchmark-of-learning-based-video-quality-metrics-at-the-conference-on-neural-information-processing-systems-neurips-2023-in-new-orleans-usa",
+          title: 'Presented our paper “Video compression dataset and benchmark of learning-based video-quality metrics” at...',
+          description: "",
+          section: "News",},{id: "news-presented-our-paper-ioi-invisible-one-iteration-adversarial-attack-on-no-reference-image-and-video-quality-metrics-at-the-international-conference-on-machine-learning-icml-2024-in-vienna-austria",
+          title: 'Presented our paper “IOI: Invisible One-Iteration Adversarial Attack on No-Reference Image- and Video-Quality...',
+          description: "",
+          section: "News",},{id: "news-i-was-honored-to-visit-the-msu-bit-engineering-department-in-shenzhen-china-as-an-invited-expert-to-deliver-a-research-talk-and-establish-a-framework-for-future-collaboration",
           title: 'I was honored to visit the MSU-BIT Engineering Department in Shenzhen, China as...',
           description: "",
           section: "News",},{id: "news-our-paper-about-leha-cvqad-dataset-for-video-quality-measurement-was-presented-by-my-phd-student-aleksandr-guschin-at-acm-international-conference-on-multimedia-acm-mm-2025-in-dublin-ireland",
