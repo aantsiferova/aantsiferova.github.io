@@ -50,7 +50,12 @@ ninja.data = [{
           section: "News",},{id: "news-presented-our-paper-from-pixels-to-reality-physical-digital-patch-attacks-on-real-world-camera-as-a-demo-at-ieee-international-conference-on-pervasive-computing-and-communications-percom-2026-in-pisa-italy",
           title: 'Presented our paper “From Pixels to Reality: Physical-Digital Patch Attacks on Real-World Camera”...',
           description: "",
-          section: "News",},{id: "projects-adversarially-robust-image-video-quality-assessment",
+          section: "News",},{id: "news-spent-two-weeks-in-shenzhen-at-our-summer-school-quot-multimodal-intelligence-and-ai-security-quot-the-team-i-mentored-won-with-an-adversarial-patch-attack-on-a-smart-camera",
+          title: 'Spent two weeks in Shenzhen at our summer school &amp;quot;Multimodal Intelligence and AI...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-22-smbu_summer_school/";
+            },},{id: "projects-adversarially-robust-image-video-quality-assessment",
           title: 'Adversarially Robust Image/Video Quality Assessment',
           description: "Benchmarks and defense methods for image/video quality metrics robustness to adversarial attacks.",
           section: "Projects",handler: () => {
