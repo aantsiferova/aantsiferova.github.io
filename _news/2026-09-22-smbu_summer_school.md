@@ -18,4 +18,4 @@ This September I co-organized the two-week **Sino-Russian Joint Academic Summer 
 
 **Week 2: challenges.** The second week was built around **9 research challenges** tackled by **10 mixed Russian-Chinese student teams**. Some challenges were taken from this year's challenges at A* conferences, others are challenges we are preparing for A* conferences in 2027. About half of the project topics were proposed by our lab.
 
-The overall winner was the team I mentored — four female and two male students — who built an **adversarial patch that breaks the verification system of a smart camera**. Congratulations to the team! 🎉
+The overall winner was the team I mentored, which built an **adversarial patch that breaks the verification system of a smart camera**. Congratulations to the team! 🎉
