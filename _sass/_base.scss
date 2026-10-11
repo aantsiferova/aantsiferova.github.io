@@ -178,6 +178,10 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  .projects & .card-title {
+    font-size: 1.4rem;
+  }
+
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
@@ -198,11 +202,11 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.35;
 
     p {
-      display: inline-block;
-      margin: 0;
+      margin: 0 0 0.6rem;
     }
   }
 }
@@ -746,6 +750,10 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+
+          div {
+            color: white;
+          }
 
           a {
             color: white;

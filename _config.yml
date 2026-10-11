@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Anastasia
 middle_name: 
 last_name: Antsiferova
-contact_note: >
-  Best way to reach me is by email.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website of Anastasia Antsiferova. Research in video quality assessment, adversarial robustness, and trusted AI.
 footer_text: >
@@ -15,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: video quality assessment, adversarial robustness, trusted AI, deep learning, video compression, research
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: prof_pic_1.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://aantsiferova.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -62,9 +61,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://aantsiferova.github.io/assets/img/prof_pic_1.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -318,7 +317,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 6 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Spent two weeks in Shenzhen at our summer school "Multimodal Intelligence and AI Security" — the team I mentored won with an adversarial patch attack on a smart camera! 🏆
+title: "Summer School in Shenzhen: Multimodal Intelligence and AI Security"
+news_title: Spent two weeks in Shenzhen at our summer school "Multimodal Intelligence and AI Security" — the team I mentored won with an adversarial patch attack on a smart camera! 🏆
 date: 2026-09-22 12:00:00-0400
 inline: false
 related_posts: false
