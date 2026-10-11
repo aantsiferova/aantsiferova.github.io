@@ -3,7 +3,7 @@ layout: page
 title: Video Codec Comparisons and Optimization
 description: Methodology and annual comparisons of video codecs and cloud transcoding services.
 img:
-importance: 10
+importance: 12
 category: research
 related_publications: true
 ---

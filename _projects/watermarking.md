@@ -3,7 +3,7 @@ layout: page
 title: Robustness of Image Watermarking
 description: Benchmarking and attacking invisible watermarks for AI-generated images.
 img:
-importance: 9
+importance: 11
 category: research
 related_publications: true
 ---
