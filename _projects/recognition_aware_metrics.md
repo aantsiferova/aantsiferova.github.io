@@ -3,7 +3,7 @@ layout: page
 title: Recognition-Aware Video Quality Metrics
 description: Development of a new metric predicting object-detection accuracy for compressed videos, in collaboration with Huawei.
 img:
-importance: 12
+importance: 11
 category: research
 ---
 

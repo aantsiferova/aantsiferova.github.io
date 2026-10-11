@@ -3,7 +3,7 @@ layout: page
 title: Robustness of Neural Image Compression
 description: Adversarial robustness analysis of learned image codecs, including the JPEG AI standard.
 img:
-importance: 7
+importance: 8
 category: research
 related_publications: true
 ---

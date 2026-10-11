@@ -3,7 +3,7 @@ layout: page
 title: Stereoscopic Video Quality and Viewer Discomfort
 description: Large-scale study of how 3D video artifacts cause viewer discomfort, and tools for technical quality analysis of stereo films.
 img:
-importance: 11
+importance: 13
 category: research
 related_publications: true
 ---

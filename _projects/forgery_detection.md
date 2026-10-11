@@ -3,7 +3,7 @@ layout: page
 title: Attacks on Image Forgery and Deepfake Detectors
 description: Anti-forensics attacks that evaluate the reliability of image forgery and deepfake detection.
 img:
-importance: 10
+importance: 4
 category: research
 related_publications: true
 ---

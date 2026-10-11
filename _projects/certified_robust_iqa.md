@@ -3,7 +3,7 @@ layout: page
 title: Certified and Robust-by-Design Quality Metrics
 description: Provable robustness guarantees and robust architectures for image quality assessment models.
 img:
-importance: 3
+importance: 1
 category: research
 related_publications: true
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Adversarial Attacks on Image/Video Quality Metrics
 description: New attacks and a large-scale benchmark revealing vulnerabilities of learning-based image and video quality metrics.
 img:
-importance: 1
+importance: 2
 category: research
 related_publications: true
 ---
