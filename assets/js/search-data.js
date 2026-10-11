@@ -68,16 +68,51 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-22-smbu_summer_school/";
-            },},{id: "projects-adversarially-robust-image-video-quality-assessment",
-          title: 'Adversarially Robust Image/Video Quality Assessment',
-          description: "Benchmarks and defense methods for image/video quality metrics robustness to adversarial attacks.",
+            },},{id: "projects-adversarial-attacks-on-image-video-quality-metrics",
+          title: 'Adversarial Attacks on Image/Video Quality Metrics',
+          description: "New attacks and a large-scale benchmark revealing vulnerabilities of learning-based image and video quality metrics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/adversarial_robustness/";
+            },},{id: "projects-certified-and-robust-by-design-quality-metrics",
+          title: 'Certified and Robust-by-Design Quality Metrics',
+          description: "Provable robustness guarantees and robust architectures for image quality assessment models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/certified_robust_iqa/";
+            },},{id: "projects-video-codec-comparisons-and-optimization",
+          title: 'Video Codec Comparisons and Optimization',
+          description: "Methodology and annual comparisons of video codecs and cloud transcoding services.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/codec_comparison/";
+            },},{id: "projects-attacks-on-image-forgery-and-deepfake-detectors",
+          title: 'Attacks on Image Forgery and Deepfake Detectors',
+          description: "Anti-forensics attacks that evaluate the reliability of image forgery and deepfake detection.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/forgery_detection/";
+            },},{id: "projects-defending-quality-metrics-against-adversarial-attacks",
+          title: 'Defending Quality Metrics Against Adversarial Attacks',
+          description: "Benchmarking and developing empirical defenses for image quality metrics, including adversarial purification and adversarial training.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/metric_defenses/";
+            },},{id: "projects-robustness-of-neural-image-compression",
+          title: 'Robustness of Neural Image Compression',
+          description: "Adversarial robustness analysis of learned image codecs, including the JPEG AI standard.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neural_compression_robustness/";
+            },},{id: "projects-physical-adversarial-attacks-on-cameras",
+          title: 'Physical Adversarial Attacks on Cameras',
+          description: "Adversarial patches that work in the real world against video quality metrics and smart-camera systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/physical_attacks/";
             },},{id: "projects-recognition-aware-video-quality-metrics",
           title: 'Recognition-Aware Video Quality Metrics',
           description: "Development of a new metric predicting object-detection accuracy for compressed videos, in collaboration with Huawei.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/recognition_aware_metrics/";
+            },},{id: "projects-stereoscopic-video-quality-and-viewer-discomfort",
+          title: 'Stereoscopic Video Quality and Viewer Discomfort',
+          description: "Large-scale study of how 3D video artifacts cause viewer discomfort, and tools for technical quality analysis of stereo films.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stereo_video_quality/";
             },},{id: "projects-video-conferencing-quality-metrics",
           title: 'Video Conferencing Quality Metrics',
           description: "Methodology and dataset development for video-conferencing quality metrics, in collaboration with Huawei.",
@@ -88,6 +123,16 @@ ninja.data = [{
           description: "The largest benchmark of video-compression-related quality metrics, with industry-wide adoption.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/video_quality_benchmark/";
+            },},{id: "projects-hacking-and-stabilizing-vmaf",
+          title: 'Hacking and Stabilizing VMAF',
+          description: "Analysis of how video preprocessing can artificially increase VMAF, the industry-standard video quality metric, and a stable modification of it.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vmaf_robustness/";
+            },},{id: "projects-robustness-of-image-watermarking",
+          title: 'Robustness of Image Watermarking',
+          description: "Benchmarking and attacking invisible watermarks for AI-generated images.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/watermarking/";
             },},{
         id: 'social-github',
         title: 'GitHub',
