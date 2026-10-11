@@ -3,7 +3,7 @@ layout: page
 title: Defending Quality Metrics Against Adversarial Attacks
 description: Benchmarking and developing empirical defenses for image quality metrics, including adversarial purification and adversarial training.
 img:
-importance: 9
+importance: 10
 category: research
 related_publications: true
 ---

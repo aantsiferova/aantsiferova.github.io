@@ -3,9 +3,11 @@ layout: page
 title: Robustness of Image Watermarking
 description: Benchmarking and attacking invisible watermarks for AI-generated images.
 img:
-importance: 11
+importance: 4
 category: research
 related_publications: true
 ---
 
 Invisible watermarks are a key tool for marking AI-generated content, but they are only useful if they survive removal attempts. We developed WIBE, a framework for benchmarking and evaluating watermarks for generated images {% cite markinWibe2025 %} ([code](https://github.com/ispras/wibe)), and a watermark overwriting attack that completely removes StegaStamp watermarks with minimal quality loss, developed for the NeurIPS "Erasing the Invisible" competition {% cite antsiferovaWatermark2025 %}.
+
+Building on WIBE, we released WARP, a unified benchmark that evaluates 32 invisible watermarking methods against 34 erasing techniques, from simple distortions to adversarial, purification and re-embedding attacks {% cite abudWarp2026 %}.

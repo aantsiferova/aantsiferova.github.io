@@ -3,7 +3,7 @@ layout: page
 title: Hacking and Stabilizing VMAF
 description: Analysis of how video preprocessing can artificially increase VMAF, the industry-standard video quality metric, and a stable modification of it.
 img:
-importance: 8
+importance: 9
 category: research
 related_publications: true
 ---

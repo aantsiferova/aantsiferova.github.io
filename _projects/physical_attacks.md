@@ -3,7 +3,7 @@ layout: page
 title: Physical Adversarial Attacks on Cameras
 description: Adversarial patches that work in the real world against video quality metrics and smart-camera systems.
 img:
-importance: 4
+importance: 5
 years: 2024–2026
 category: research
 related_publications: true

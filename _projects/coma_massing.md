@@ -3,7 +3,7 @@ layout: page
 title: Contextual Building Massing Generation (CoMa)
 description: Vision-language models that generate site-aware 3D building massings for architectural design.
 img:
-importance: 6
+importance: 7
 category: research
 related_publications: true
 github: https://github.com/FusionBrainLab/CoMa

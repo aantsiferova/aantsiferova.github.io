@@ -17,4 +17,6 @@ On this basis we organized the **NTIRE 2026 Challenge on Robust AI-Generated Ima
 
 Our team also takes part in related challenges: we proposed a grounded artifact-evidence approach for the Explainable Deepfake Detection Challenge {% cite filippovMsu2026 %} and took third place in the GenText-Forensics challenge at ACM MM 2026 {% cite koltsovGentext2026 %}.
 
+Detecting generated content goes hand in hand with assessing it: we proposed TIQA, a human-aligned metric for perceptual quality of text rendered in AI-generated images {% cite koltsovTiqa2026 %}.
+
 **Project page:** [videoprocessing.ai/benchmarks/deepfake-detection.html](https://videoprocessing.ai/benchmarks/deepfake-detection.html)
