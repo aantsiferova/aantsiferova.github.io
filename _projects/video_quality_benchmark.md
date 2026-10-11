@@ -3,7 +3,7 @@ layout: page
 title: Video Quality Metrics Benchmark
 description: The largest benchmark of video-compression-related quality metrics, with industry-wide adoption.
 img:
-importance: 5
+importance: 8
 category: research
 related_publications: true
 ---
