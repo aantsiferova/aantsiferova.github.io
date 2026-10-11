@@ -63,8 +63,8 @@ ninja.data = [{
           section: "News",},{id: "news-presented-our-paper-from-pixels-to-reality-physical-digital-patch-attacks-on-real-world-camera-as-a-demo-at-ieee-international-conference-on-pervasive-computing-and-communications-percom-2026-in-pisa-italy",
           title: 'Presented our paper “From Pixels to Reality: Physical-Digital Patch Attacks on Real-World Camera”...',
           description: "",
-          section: "News",},{id: "news-spent-two-weeks-in-shenzhen-at-our-summer-school-quot-multimodal-intelligence-and-ai-security-quot-the-team-i-mentored-won-with-an-adversarial-patch-attack-on-a-smart-camera",
-          title: 'Spent two weeks in Shenzhen at our summer school &amp;quot;Multimodal Intelligence and AI...',
+          section: "News",},{id: "news-summer-school-in-shenzhen-multimodal-intelligence-and-ai-security",
+          title: 'Summer School in Shenzhen: Multimodal Intelligence and AI Security',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-22-smbu_summer_school/";
@@ -134,11 +134,25 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/watermarking/";
             },},{
-        id: 'social-github',
-        title: 'GitHub',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/aantsiferova", "_blank");
+          window.open("https://scholar.google.com/citations?user=lJ-GGU8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-1272-5135", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Anastasia-Antsiferova-2/", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -148,11 +162,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/anastasiaantsiferova", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=lJ-GGU8AAAAJ", "_blank");
+          window.open("https://github.com/aantsiferova", "_blank");
         },
       },{
         id: 'social-rss',
