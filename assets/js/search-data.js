@@ -73,6 +73,11 @@ ninja.data = [{
           description: "New attacks and a large-scale benchmark revealing vulnerabilities of learning-based image and video quality metrics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/adversarial_robustness/";
+            },},{id: "projects-robust-ai-generated-image-detection-ntire-2026-challenge",
+          title: 'Robust AI-Generated Image Detection (NTIRE 2026 Challenge)',
+          description: "Organizing the NTIRE 2026 challenge at CVPR and developing robust, explainable detectors of AI-generated and forged images.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ai_image_detection/";
             },},{id: "projects-certified-and-robust-by-design-quality-metrics",
           title: 'Certified and Robust-by-Design Quality Metrics',
           description: "Provable robustness guarantees and robust architectures for image quality assessment models.",
@@ -83,6 +88,11 @@ ninja.data = [{
           description: "Methodology and annual comparisons of video codecs and cloud transcoding services.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/codec_comparison/";
+            },},{id: "projects-contextual-building-massing-generation-coma",
+          title: 'Contextual Building Massing Generation (CoMa)',
+          description: "Vision-language models that generate site-aware 3D building massings for architectural design.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/coma_massing/";
             },},{id: "projects-attacks-on-image-forgery-and-deepfake-detectors",
           title: 'Attacks on Image Forgery and Deepfake Detectors',
           description: "Anti-forensics attacks that evaluate the reliability of image forgery and deepfake detection.",
