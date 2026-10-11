@@ -1,0 +1,18 @@
+{% if project.stats_years or project.stats_papers > 0 %}
+  <p class="card-text project-stats">
+    <small class="text-muted">
+      {% if project.stats_years %}
+        <span class="text-nowrap mr-2"><i class="fa-regular fa-calendar"></i> {{ project.stats_years }}</span>
+      {% endif %}
+      {% if project.stats_papers > 0 %}
+        <span class="text-nowrap mr-2"
+          ><i class="fa-regular fa-file-lines"></i> {{ project.stats_papers }}
+          {% if project.stats_papers == 1 %}paper{% else %}papers{% endif %}</span
+        >
+      {% endif %}
+      {% if project.stats_coauthors > 0 %}
+        <span class="text-nowrap"><i class="fa-solid fa-users"></i> {{ project.stats_coauthors }} co-authors</span>
+      {% endif %}
+    </small>
+  </p>
+{% endif %}
