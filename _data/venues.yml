@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Badge colors for publication venues (abbr field in papers.bib).
+# Venues not listed here use the site theme color.
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"CVIU":
+  color: "#0b6e99"
+"MMSJ":
+  color: "#0b6e99"
+"Technologies":
+  color: "#0b6e99"
+"BDCC":
+  color: "#0b6e99"
+"PCS":
+  color: "#0b6e99"
+"arXiv":
+  color: "#8a8a8a"
+"Preprint":
+  color: "#8a8a8a"
+"Report":
+  color: "#8a8a8a"

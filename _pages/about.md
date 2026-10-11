@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research group leader | Video quality, Video compression, Trusted AI, GenAI | National award “Leaders of AI-2025”
+subtitle: >
+  Research group leader in video quality, video compression, trusted AI and GenAI<br>
+  🏆 National “Leaders of AI” award, 2025
 
 profile:
   align: right
   image: prof_pic_1.jpg
   image_circular: true 
   more_info: >
-    <p>Sber AI</p>
-    <p>MSU Institute for AI</p>
-    <p>Trusted AI Research Center Russian Academy of Sciences</p>
+    <p><strong>R&amp;D Leader, Executive Director of Data Science</strong><br>Sber AI</p>
+    <p><strong>Senior Research Scientist, Group Leader</strong><br>MSU Institute for Artificial Intelligence</p>
+    <p><strong>Research Scientist, Group Leader</strong><br>ISP RAS Research Center for Trusted Artificial Intelligence</p>
 
 selected_papers: true
 social: true
