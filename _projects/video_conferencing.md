@@ -3,7 +3,8 @@ layout: page
 title: Video Conferencing Quality Metrics
 description: Methodology and dataset development for video-conferencing quality metrics, in collaboration with Huawei.
 img:
-importance: 4
+importance: 12
+years: 2020
 category: research
 ---
 
