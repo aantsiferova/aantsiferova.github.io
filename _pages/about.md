@@ -31,9 +31,5 @@ latest_posts:
 
 My research interests:
 
-- Generative AI for architecture and building construction
-- Deepfake image and video detection
-- Digital watermarking
-- Neural image compression
-- Trusted image and video quality assessment: certified and provable defenses
-- Video quality metrics development
+- **Generative AI:** architecture and building design
+- **Trustworthy multimedia:** deepfake detection, digital watermarking, image and video quality assessment, neural image compression
