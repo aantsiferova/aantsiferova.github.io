@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Research group leader in video quality, video compression, trusted AI and GenAI<br>
+  Research group leader in generative AI and trustworthy multimedia<br>
   🏆 National “Leaders of AI” award, 2025
 
 profile:
@@ -29,15 +29,7 @@ latest_posts:
   limit: 3
 ---
 
-12 years in Video Compression, Computer Vision, and Adversarial Robustness.
+My research interests:
 
-Experienced in leading research teams, developing state-of-the-art benchmarks, academia-industry collaboration, and startups. Published 10+ papers at top-tier conferences (NeurIPS, ICML, ICLR, AAAI).
-
-Current research focus:
-
-- **Robust and certified quality assessment** — image and video quality metrics that withstand adversarial attacks, including certified defenses (FS-IQA, Stochastic BIQA), adversarial training (BiRQA), and robustness-by-design architectures.
-- **Adversarial attacks and defenses** — transferable image-to-video attacks on quality metrics, benchmarking defenses (ICML 2025), and anti-forensics attacks on image forgery detection.
-- **Trusted GenAI** — watermarking of AI-generated images: benchmarking (WIBE, ASE 2025) and attacks on watermarking schemes.
-- **Neural compression** — robustness of learned image codecs (NIC-RobustBench, JPEG AI), compression of multimodal LLMs, and datasets for compressed video quality assessment (LEHA-CVQAD).
-
-Expertise in applying ML/AI techniques to real-world challenges, with contributions adopted by industry leaders such as Google and NETFLIX.
+- **Generative AI:** architecture and building design
+- **Trustworthy multimedia:** deepfake detection, digital watermarking, image and video quality assessment, neural image compression
