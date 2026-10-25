@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Research group leader in video quality, video compression, trusted AI and GenAI<br>
+  Research group leader in generative AI and trustworthy multimedia<br>
   🏆 National “Leaders of AI” award, 2025
 
 profile:
