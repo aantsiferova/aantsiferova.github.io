@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /card/
 
 Sitemap: https://aantsiferova.github.io/sitemap.xml
